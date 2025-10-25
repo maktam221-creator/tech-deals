@@ -107,11 +107,6 @@ const EXCHANGE_RATES = { SAR: 1, USD: 0.27, EUR: 0.25, AED: 0.98, EGP: 12.7, KWD
 const LANGUAGES = [ { code: 'ar', name: 'العربية', dir: 'rtl' }, { code: 'en', name: 'English', dir: 'ltr' }, ];
 const CURRENCIES = [ { code: 'SAR', name: 'Saudi Riyal', symbol: 'ر.س' }, { code: 'USD', name: 'US Dollar', symbol: '$' }, { code: 'EUR', name: 'Euro', symbol: '€' }, { code: 'AED', name: 'UAE Dirham', symbol: 'د.إ' }, { code: 'EGP', name: 'Egyptian Pound', symbol: 'ج.م' }, { code: 'KWD', name: 'Kuwaiti Dinar', symbol: 'د.ك' }, { code: 'LBP', name: 'Lebanese Pound', symbol: 'L£' }, { code: 'RUB', name: 'Russian Ruble', symbol: '₽' }, { code: 'CNY', name: 'Chinese Yuan', symbol: '¥' }, { code: 'KRW', name: 'South Korean Won', symbol: '₩' }, { code: 'KPW', name: 'North Korean Won', symbol: '₩' }, { code: 'INR', name: 'Indian Rupee', symbol: '₹' }, { code: 'PKR', name: 'Pakistani Rupee', symbol: '₨' }, ];
 const COUNTRIES = [ { code: 'CN', name: 'China', flag: '🇨🇳', currencyCode: 'CNY', languageCode: 'en' }, { code: 'EG', name: 'Egypt', flag: '🇪🇬', currencyCode: 'EGP', languageCode: 'ar' }, { code: 'IN', name: 'India', flag: '🇮🇳', currencyCode: 'INR', languageCode: 'en' }, { code: 'KW', name: 'Kuwait', flag: '🇰🇼', currencyCode: 'KWD', languageCode: 'ar' }, { code: 'LB', name: 'Lebanon', flag: '🇱🇧', currencyCode: 'LBP', languageCode: 'ar' }, { code: 'KP', name: 'North Korea', flag: '🇰🇵', currencyCode: 'KPW', languageCode: 'en' }, { code: 'PK', name: 'Pakistan', flag: '🇵🇰', currencyCode: 'PKR', languageCode: 'en' }, { code: 'RU', name: 'Russia', flag: '🇷🇺', currencyCode: 'RUB', languageCode: 'en' }, { code: 'SA', name: 'Saudi Arabia', flag: '🇸🇦', currencyCode: 'SAR', languageCode: 'ar' }, { code: 'KR', name: 'South Korea', flag: '🇰🇷', currencyCode: 'KRW', languageCode: 'en' }, { code: 'AE', name: 'United Arab Emirates', flag: '🇦🇪', currencyCode: 'AED', languageCode: 'ar' }, { code: 'US', name: 'United States', flag: '🇺🇸', currencyCode: 'USD', languageCode: 'en' }, ];
-const potentialNewDeals = [
-  { name: 'شاحن Anker PowerPort III', category: 'accessories', price: 120, originalPrice: 150, imageUrl: 'https://picsum.photos/seed/ankercharger/400/300', rating: 4.9, reviewCount: 550, description: 'شاحن سريع وصغير الحجم، مثالي للسفر والاستخدام اليومي.', store: 'amazon', affiliateLink: 'https://www.amazon.sa', },
-  { name: 'جهاز لوحي Samsung Galaxy Tab S9', category: 'tablets', price: 3200, originalPrice: 3500, imageUrl: 'https://picsum.photos/seed/tabs9/400/300', rating: 4.8, reviewCount: 400, description: 'شاشة Dynamic AMOLED 2X رائعة وأداء قوي لتعدد المهام.', store: 'jarir', affiliateLink: 'https://www.jarir.com', },
-  { name: 'سماعات Nothing Ear (2)', category: 'headphones', price: 550, imageUrl: 'https://picsum.photos/seed/nothingear/400/300', rating: 4.5, reviewCount: 950, description: 'تصميم شفاف فريد وجودة صوت محسنة مع عزل ضوضاء فعال.', store: 'noon', affiliateLink: 'https://www.noon.com/saudi-en/', }
-];
 
 // === GEMINI SERVICE ===
 async function generateBuyingGuide(topic, languageCode) {
@@ -181,6 +176,47 @@ async function generateProductFromUrl(url, languageCode) {
         throw new Error("Failed to extract product data from the URL.");
     }
 }
+async function generateNewDeal(languageCode, existingProductNames = []) {
+    const API_KEY = process.env.API_KEY;
+    if (!API_KEY) {
+        console.warn("Gemini API key not found. Auto-generation of deals is disabled.");
+        return null;
+    }
+    const ai = new GoogleGenAI({ apiKey: API_KEY });
+    const languageName = languageCode === 'ar' ? 'Arabic' : 'English';
+    const schema = {
+        type: Type.OBJECT,
+        properties: {
+            name: { type: Type.STRING, description: `The full name of the product, in ${languageName}.` },
+            description: { type: Type.STRING, description: `A concise, compelling description of the product in one or two sentences, in ${languageName}.` },
+            price: { type: Type.NUMBER, description: "The discounted price of the product as a number, in Saudi Riyals (SAR)." },
+            originalPrice: { type: Type.NUMBER, description: "The original price before the discount, which must be higher than the 'price'." },
+            category: { type: Type.STRING, description: "The most relevant category from this list: laptops, smartphones, headphones, monitors, tablets, cameras, accessories." },
+            imageUrl: { type: Type.STRING, description: "A publicly accessible URL to a realistic product image. Use a service like picsum.photos." },
+            store: { type: Type.STRING, description: "The name of a popular online store in the Middle East (e.g., amazon, jarir, noon, extra)." }
+        },
+        required: ["name", "description", "price", "originalPrice", "category", "imageUrl", "store"]
+    };
+    try {
+        const prompt = `
+            Generate a single, realistic, and appealing tech product deal. The deal must be for a product that is not in the following list of existing product names: [${existingProductNames.join(', ')}].
+            - The product's name and description must be in ${languageName}.
+            - The product category must be one of: laptops, smartphones, headphones, monitors, tablets, cameras, accessories.
+            - The store must be one of: amazon, jarir, noon, extra.
+            - The 'originalPrice' must be greater than the 'price' to show a clear discount.
+            - The prices should be realistic for the Saudi Arabian market in SAR.
+            - For the imageUrl, provide a random but plausible image URL from picsum.photos, like 'https://picsum.photos/seed/newproduct${Date.now()}/400/300'.
+            - Provide the response in JSON format according to the schema.
+        `;
+        const response = await ai.models.generateContent({ model: "gemini-2.5-flash", contents: prompt, config: { responseMimeType: "application/json", responseSchema: schema } });
+        const jsonText = response.text.trim();
+        return JSON.parse(jsonText);
+    } catch (error) {
+        console.error("Error generating new deal with Gemini API:", error);
+        throw new Error("Failed to generate new deal.");
+    }
+}
+
 
 // === CONTEXTS AND HOOKS ===
 const AuthContext = createContext(undefined);
@@ -1222,7 +1258,7 @@ const AdminPanel = ({ products, coupons, siteSettings, onSaveProduct, onDeletePr
 // === MAIN APP COMPONENT ===
 const App = () => {
   const { currentUser } = useAuth();
-  const { t } = useLocalization();
+  const { t, language } = useLocalization();
   const [allProducts, setAllProducts] = useState(() => getStoredData('allProducts', initialProducts));
   const [allCoupons, setAllCoupons] = useState(() => getStoredData('allCoupons', initialCoupons));
   const [siteSettings, setSiteSettings] = useState(() => getStoredData('siteSettings', initialSiteSettings));
@@ -1243,22 +1279,37 @@ const App = () => {
 
   useEffect(() => {
     if (siteSettings.enableAutoAdd) {
-        autoAddIntervalRef.current = setInterval(() => {
-            if (potentialNewDeals.length > 0) {
-                const randomDeal = potentialNewDeals[Math.floor(Math.random() * potentialNewDeals.length)];
-                const newProduct = { ...randomDeal, id: Date.now() };
-                setAllProducts(prevProducts => {
-                    if (prevProducts.some(p => p.name === newProduct.name)) { return prevProducts; }
-                    return [...prevProducts, newProduct];
-                });
+        autoAddIntervalRef.current = setInterval(async () => {
+             console.log("Attempting to auto-add a new product via AI...");
+            try {
+                const existingNames = allProducts.map(p => p.name);
+                const dealData = await generateNewDeal(language.code, existingNames);
+
+                if (dealData && dealData.name && !existingNames.includes(dealData.name)) {
+                    const newProduct = {
+                        ...dealData,
+                        id: Date.now(),
+                        rating: parseFloat((Math.random() * (4.9 - 4.2) + 4.2).toFixed(1)),
+                        reviewCount: Math.floor(Math.random() * 2000) + 50,
+                        affiliateLink: `https://www.${dealData.store}.com`,
+                        priceComparison: []
+                    };
+
+                    console.log("Generated new product:", newProduct);
+                    setAllProducts(prevProducts => [...prevProducts, newProduct]);
+                } else {
+                     console.log("AI generation skipped or returned a duplicate product.");
+                }
+            } catch (error) {
+                console.error("Failed to auto-add product with AI:", error);
             }
-        }, 10000);
+        }, 20000);
     } else if (autoAddIntervalRef.current) {
         clearInterval(autoAddIntervalRef.current);
         autoAddIntervalRef.current = null;
     }
     return () => { if (autoAddIntervalRef.current) { clearInterval(autoAddIntervalRef.current); } };
-  }, [siteSettings.enableAutoAdd]);
+  }, [siteSettings.enableAutoAdd, allProducts, language.code]);
 
   useEffect(() => {
     const handleBeforeInstallPrompt = (e) => { e.preventDefault(); setInstallPromptEvent(e); };
