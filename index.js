@@ -10,7 +10,7 @@ const arTranslations = {
   "hero": { "title": "أفضل الصفقات التقنية في مكان واحد", "subtitle": "نحن نبحث لك عن أفضل العروض والكوبونات للمنتجات التقنية لمساعدتك على التوفير.", "searchPlaceholder": "ابحث عن لابتوب, هاتف ذكي, سماعات..." },
   "categories": { "title": "تصفح حسب الفئة", "all": "الكل", "laptops": "لابتوبات", "smartphones": "هواتف ذكية", "headphones": "سماعات", "monitors": "شاشات", "tablets": "أجهزة لوحية", "cameras": "كاميرات", "accessories": "ملحقات" },
   "pageTitles": { "wishlist": "قائمة الأمنيات", "deals": "أفضل العروض", "featuredProducts": "المنتجات المميزة" },
-  "products": { "noResults": "لا توجد منتجات تطابق بحثك.", "noResultsSubtitle": "حاول تغيير كلمات البحث أو الفلترة.", "1": { "name": "لابتوب Dell XPS 15", "description": "لابتوب قوي بشاشة OLED مذهلة، مثالي للمصممين والمطورين." }, "2": { "name": "هاتف Samsung Galaxy S23 Ultra", "description": "كاميرا استثنائية وأداء فائق مع قلم S Pen لتجربة لا مثيل لها." }, "3": { "name": "سماعات Sony WH-1000XM5", "description": "أفضل تقنية لعزل الضوضاء في فئتها مع جودة صوت لا تضاهى." }, "4": { "name": "شاشة ألعاب LG UltraGear 27\"", "description": "شاشة 4K بمعدل تحديث 144Hz لتجربة ألعاب سلسة وممتعة." }, "5": { "name": "Apple iPad Air", "description": "تصميم أنيق وأداء قوي مع شريحة M1." }, "6": { "name": "كاميرا Canon EOS R6", "description": "كاميرا احترافية لتصوير الفيديو والصور بجودة عالية." }, "7": { "name": "ماوس لوجيتك MX Master 3S", "description": "أفضل ماوس للإنتاجية بتصميم مريح وميزات متقدمة." }, "8": { "name": "هاتف Google Pixel 8 Pro", "description": "تجربة أندرويد خام مع كاميرا ذكية وميزات حصرية." }, "9": { "name": "ماوس الألعاب Razer Viper Mini", "description": "خفيف الوزن وسريع الاستجابة، مثالي للألعاب التنافسية." } },
+  "products": { "noResults": "لا توجد منتجات تطابق بحثك.", "noResultsSubtitle": "حاول تغيير كلمات البحث أو الفلترة.", "1": { "name": "لابتوب Dell XPS 15", "description": "لابتوب قوي بشاشة OLED مذهلة، مثالي للمصممين والمطورين." }, "2": { "name": "هاتف Samsung Galaxy S23 Ultra", "description": "كاميرا استثنائية وأداء فائق مع قلم S Pen لتجربة لا مثيل لها." }, "3": { "name": "سماعات Sony WH-1000XM5", "description": "أفضل تقنية لعزل الضوضاء في فئتها مع جودة صوت لا تضاهى." }, "4": { "name": "شاشة ألعاب LG UltraGear 27\"", "description": "شاشة 4K بمعدل تحديث 144Hz لتجربة ألعاب سلسة وممتعة." }, "5": { "name": "Apple iPad Air", "description": "تصميم أنيق وأداء قوي مع شريحة M1." }, "6": { "name": "كاميرا Canon EOS R6", "description": "كاميرا احترافية لتصوير الفيديو والصور بجودة عالية." }, "7": { "name": "ماوس لوجيتك MX Master 3S", "description": "أفضل ماوس للإنتاجية بتصميم مريح وميزات متقدمة." }, "8": { "name": "هاتف Google Pixel 8 Pro", "description": "تجربة أندرويد خام مع كاميرا ذكية وميزات حصرية." }, "9": { "name": "ماوس الألعاب Razer Viper Mini", "description": "خفيف الوزن وسريع الاستجابة، مثالي للألعاب التنافسية." }, "10": { "name": "ساعة Apple Watch SE (الجيل الثاني)", "description": "ميزات أساسية لمساعدتك على البقاء متصلاً ونشطاً وبصحة جيدة وآمناً." }, "11": { "name": "لوحة مفاتيح Keychron K2 الميكانيكية اللاسلكية", "description": "لوحة مفاتيح ميكانيكية لاسلكية مدمجة بتصميم 75% مع مفاتيح Gateron لنظامي Mac و Windows." }, "12": { "name": "سماعات Anker Soundcore Life Q30", "description": "سماعات رأس بإلغاء ضوضاء نشط هجين مع أوضاع متعددة وصوت عالي الدقة." } },
   "productCard": { "reviews": "مراجعة", "comparePrices": "مقارنة الأسعار", "viewDeal": "عرض الصفقة من {{store}}", "addToWishlist": "إضافة إلى قائمة الأمنيات", "removeFromWishlist": "إزالة من قائمة الأمنيات" },
   "coupons": { "title": "كوبونات حصرية", "expiresOn": "ينتهي في: {{date}}", "copyCode": "انسخ الكود", "copied": "تم النسخ!", "1": { "description": "خصم 15% على الإلكترونيات" }, "2": { "description": "خصم 10% على اللابتوبات" }, "3": { "description": "خصم 20% على اكسسوارات الجوال" } },
   "aiGuide": { "title": "دليلك الذكي للشراء", "subtitle": "غير متأكد ماذا تشتري؟ اطلب من الذكاء الاصطناعي إنشاء دليل شراء مخصص لك.", "placeholder": "مثال: أفضل لابتوب للمونتاج بسعر أقل من 5000 ريال", "buttonText": "إنشاء الدليل", "loading": "جاري الإنشاء...", "guideTitle": "دليلك المخصص: {{topic}}", "error": { "topicRequired": "الرجاء إدخال موضوع لإنشاء الدليل.", "generationFailed": "حدث خطأ أثناء إنشاء الدليل. الرجاء المحاولة مرة أخرى." } },
@@ -20,14 +20,15 @@ const arTranslations = {
   "footer": { "brand": "صفقات تك", "copyright": "كل الحقوق محفوظة © {{year}}", "about": "من نحن", "privacy": "سياسة الخصوصية" },
   "stores": { "amazon": "أمازون", "jarir": "جرير", "noon": "نون", "extra": "إكسترا", "shein": "شي إن" },
   "login": { "title": "تسجيل الدخول للوحة التحكم", "username": "اسم المستخدم", "password": "كلمة المرور", "loginButton": "تسجيل الدخول", "error": "اسم المستخدم أو كلمة المرور غير صحيحة." },
-  "admin": { "panelTitle": "لوحة التحكم", "logout": "تسجيل الخروج", "manageUsers": "إدارة المستخدمين", "addNewUser": "إضافة مستخدم جديد", "username": "اسم المستخدم", "role": "الصلاحية", "actions": "الإجراءات", "edit": "تعديل", "delete": "حذف", "deleteConfirm": "هل أنت متأكد من أنك تريد حذف هذا المستخدم؟", "manageProducts": "إدارة المنتجات", "addNewProduct": "إضافة منتج جديد", "productName": "اسم المنتج", "category": "الفئة", "price": "السعر (ر.س)", "manageCoupons": "إدارة الكوبونات", "addNewCoupon": "إضافة كوبون جديد", "store": "المتجر", "code": "الكود", "description": "الوصف", "manageBlog": "إدارة المدونة", "addNewPost": "إضافة تدوينة جديدة", "postTitle": "عنوان التدوينة", "author": "الكاتب", "date": "التاريخ", "blogForm": { "addPostTitle": "إضافة تدوينة جديدة", "editPostTitle": "تعديل التدوينة", "title": "العنوان", "author": "الكاتب", "date": "تاريخ النشر", "imageUrl": "رابط الصورة", "content": "المحتوى", "cancel": "إلغاء", "save": "حفظ" }, "userForm": { "addUserTitle": "إضافة مستخدم جديد", "editUserTitle": "تعديل المستخدم", "password": "كلمة المرور", "passwordHint": "اتركه فارغًا لعدم التغيير", "role": "الصلاحية", "cancel": "إلغاء", "save": "حفظ" }, "productForm": { "addProductTitle": "إضافة منتج جديد", "editProductTitle": "تعديل المنتج", "name": "الاسم", "category": "الفئة", "price": "السعر (ر.س)", "originalPrice": "السعر الأصلي (اختياري)", "store": "المتجر", "affiliateLink": "رابط التسويق", "imageUrl": "رابط الصورة", "description": "الوصف", "cancel": "إلغاء", "save": "حفظ" }, "couponForm": { "addCouponTitle": "إضافة كوبون جديد", "editCouponTitle": "تعديل الكوبون", "store": "المتجر", "code": "الكود", "description": "الوصف", "expiryDate": "تاريخ الانتهاء", "storeLogoUrl": "رابط شعار المتجر", "cancel": "إلغاء", "save": "حفظ" }, "roles": { "ADMIN": "مدير", "EDITOR": "محرر" }, "manageSite": "إعدادات الموقع", "manageSiteDesc": "إدارة المحتوى العام للموقع مثل صفحة 'من نحن' و 'سياسة الخصوصية'.", "aboutUs": "من نحن", "privacyPolicy": "سياسة الخصوصية", "copyrightYear": "سنة حقوق النشر", "saveSettings": "حفظ الإعدادات", "settingsSaved": "تم حفظ الإعدادات بنجاح!", "siteVisibility": "إعدادات الظهور", "siteVisibilityDesc": "التحكم في الأقسام التي تظهر في الصفحة الرئيسية.", "showBlogSection": "إظهار قسم المدونة", "showCouponsSection": "إظهار قسم الكوبونات", "monetization": "تحقيق الدخل", "monetizationDesc": "إدارة إعدادات الإعلانات والعمولة.", "adsenseId": "معرف Google AdSense Publisher", "pixelId": "معرف Facebook Pixel", "commissionRate": "نسبة العمولة الافتراضية (%)", "showAds": "إظهار الإعلانات على الموقع", "earningsDashboard": "لوحة الأرباح", "earningsDesc": "نظرة عامة على الأرباح المحتملة من التسويق بالعمولة.", "totalValue": "إجمالي قيمة المنتجات", "estimatedEarnings": "الأرباح التقديرية للعمولة", "productCount": "إجمالي المنتجات: {{count}}", "addProductByUrl": "إضافة عبر الرابط", "productUrlModal": { "title": "إنشاء منتج من رابط", "placeholder": "https://example.com/product-page", "generate": "إنشاء المنتج", "generating": "جاري الإنشاء...", "error": "تعذر استخراج تفاصيل المنتج. يرجى التحقق من الرابط أو تجربة صفحة أخرى." }, "automationSettings": "إعدادات الأتمتة", "automationSettingsDesc": "إدارة الإنشاء والتحديثات التلقائية للمحتوى.", "enableAutoAdd": "تفعيل إضافة المنتجات التلقائي", "enableAutoAddDesc": "عند التفعيل، سيقوم النظام بإضافة صفقات جديدة بشكل دوري." }
+  "admin": { "panelTitle": "لوحة التحكم", "logout": "تسجيل الخروج", "manageUsers": "إدارة المستخدمين", "addNewUser": "إضافة مستخدم جديد", "username": "اسم المستخدم", "role": "الصلاحية", "actions": "الإجراءات", "edit": "تعديل", "delete": "حذف", "deleteConfirm": "هل أنت متأكد من أنك تريد حذف هذا المستخدم؟", "manageProducts": "إدارة المنتجات", "addNewProduct": "إضافة منتج جديد", "productName": "اسم المنتج", "category": "الفئة", "price": "السعر (ر.س)", "manageCoupons": "إدارة الكوبونات", "addNewCoupon": "إضافة كوبون جديد", "store": "المتجر", "code": "الكود", "description": "الوصف", "manageBlog": "إدارة المدونة", "addNewPost": "إضافة تدوينة جديدة", "postTitle": "عنوان التدوينة", "author": "الكاتب", "date": "التاريخ", "blogForm": { "addPostTitle": "إضافة تدوينة جديدة", "editPostTitle": "تعديل التدوينة", "title": "العنوان", "author": "الكاتب", "date": "تاريخ النشر", "imageUrl": "رابط الصورة", "content": "المحتوى", "cancel": "إلغاء", "save": "حفظ" }, "userForm": { "addUserTitle": "إضافة مستخدم جديد", "editUserTitle": "تعديل المستخدم", "password": "كلمة المرور", "passwordHint": "اتركه فارغًا لعدم التغيير", "role": "الصلاحية", "cancel": "إلغاء", "save": "حفظ" }, "productForm": { "addProductTitle": "إضافة منتج جديد", "editProductTitle": "تعديل المنتج", "name": "الاسم", "category": "الفئة", "price": "السعر (ر.س)", "originalPrice": "السعر الأصلي (اختياري)", "store": "المتجر", "affiliateLink": "رابط التسويق", "imageUrl": "رابط الصورة", "description": "الوصف", "cancel": "إلغاء", "save": "حفظ" }, "couponForm": { "addCouponTitle": "إضافة كوبون جديد", "editCouponTitle": "تعديل الكوبون", "store": "المتجر", "code": "الكود", "description": "الوصف", "expiryDate": "تاريخ الانتهاء", "storeLogoUrl": "رابط شعار المتجر", "cancel": "إلغاء", "save": "حفظ" }, "roles": { "ADMIN": "مدير", "EDITOR": "محرر" }, "manageSite": "إعدادات الموقع", "manageSiteDesc": "إدارة المحتوى العام للموقع مثل صفحة 'من نحن' و 'سياسة الخصوصية'.", "aboutUs": "من نحن", "privacyPolicy": "سياسة الخصوصية", "copyrightYear": "سنة حقوق النشر", "saveSettings": "حفظ الإعدادات", "settingsSaved": "تم حفظ الإعدادات بنجاح!", "siteVisibility": "إعدادات الظهور", "siteVisibilityDesc": "التحكم في الأقسام التي تظهر في الصفحة الرئيسية.", "showBlogSection": "إظهار قسم المدونة", "showCouponsSection": "إظهار قسم الكوبونات", "monetization": "تحقيق الدخل", "monetizationDesc": "إدارة إعدادات الإعلانات والعمولة.", "adsenseId": "معرف Google AdSense Publisher", "pixelId": "معرف Facebook Pixel", "commissionRate": "نسبة العمولة الافتراضية (%)", "showAds": "إظهار الإعلانات على الموقع", "earningsDashboard": "لوحة الأرباح", "earningsDesc": "نظرة عامة على الأرباح المحتملة من التسويق بالعمولة.", "totalValue": "إجمالي قيمة المنتجات", "estimatedEarnings": "الأرباح التقديرية للعمولة", "productCount": "إجمالي المنتجات: {{count}}", "addProductByUrl": "إضافة عبر الرابط", "productUrlModal": { "title": "إنشاء منتج من رابط", "placeholder": "https://example.com/product-page", "generate": "إنشاء المنتج", "generating": "جاري الإنشاء...", "error": "تعذر استخراج تفاصيل المنتج. يرجى التحقق من الرابط أو تجربة صفحة أخرى." }, "automationSettings": "إعدادات الأتمتة", "automationSettingsDesc": "إدارة الإنشاء والتحديثات التلقائية للمحتوى.", "enableAutoAdd": "تفعيل إضافة المنتجات التلقائي", "enableAutoAddDesc": "عند التفعيل، سيقوم النظام بإضافة صفقات جديدة بشكل دوري." },
+  "notifications": { "newProductAdded": "تمت إضافة منتج جديد: {{productName}}" }
 };
 const enTranslations = {
   "header": { "brand": "Tech Deals", "home": "Home", "deals": "Best Deals", "categories": "Categories", "blog": "Blog", "wishlistAriaLabel": "Wishlist", "products": "products" },
   "hero": { "title": "The Best Tech Deals in One Place", "subtitle": "We find the best deals and coupons for tech products to help you save.", "searchPlaceholder": "Search for a laptop, smartphone, headphones..." },
   "categories": { "title": "Browse by Category", "all": "All", "laptops": "Laptops", "smartphones": "Smartphones", "headphones": "Headphones", "monitors": "Monitors", "tablets": "Tablets", "cameras": "Cameras", "accessories": "Accessories" },
   "pageTitles": { "wishlist": "My Wishlist", "deals": "Best Deals", "featuredProducts": "Featured Products" },
-  "products": { "noResults": "No products match your search.", "noResultsSubtitle": "Try changing your search terms or filters.", "1": { "name": "Dell XPS 15 Laptop", "description": "A powerful laptop with a stunning OLED screen, perfect for designers and developers." }, "2": { "name": "Samsung Galaxy S23 Ultra", "description": "Exceptional camera and top-tier performance with the S Pen for an unparalleled experience." }, "3": { "name": "Sony WH-1000XM5 Headphones", "description": "Best-in-class noise-canceling technology with unmatched sound quality." }, "4": { "name": "LG UltraGear 27\" Gaming Monitor", "description": "A 4K monitor with a 144Hz refresh rate for a smooth and enjoyable gaming experience." }, "5": { "name": "Apple iPad Air", "description": "Sleek design and powerful performance with the M1 chip." }, "6": { "name": "Canon EOS R6 Camera", "description": "A professional camera for high-quality video and photography." }, "7": { "name": "Logitech MX Master 3S Mouse", "description": "The best productivity mouse with an ergonomic design and advanced features." }, "8": { "name": "Google Pixel 8 Pro", "description": "A pure Android experience with a smart camera and exclusive features." }, "9": { "name": "Razer Viper Mini Gaming Mouse", "description": "Lightweight and responsive, perfect for competitive gaming." } },
+  "products": { "noResults": "No products match your search.", "noResultsSubtitle": "Try changing your search terms or filters.", "1": { "name": "Dell XPS 15 Laptop", "description": "A powerful laptop with a stunning OLED screen, perfect for designers and developers." }, "2": { "name": "Samsung Galaxy S23 Ultra", "description": "Exceptional camera and top-tier performance with the S Pen for an unparalleled experience." }, "3": { "name": "Sony WH-1000XM5 Headphones", "description": "Best-in-class noise-canceling technology with unmatched sound quality." }, "4": { "name": "LG UltraGear 27\" Gaming Monitor", "description": "A 4K monitor with a 144Hz refresh rate for a smooth and enjoyable gaming experience." }, "5": { "name": "Apple iPad Air", "description": "Sleek design and powerful performance with the M1 chip." }, "6": { "name": "Canon EOS R6 Camera", "description": "A professional camera for high-quality video and photography." }, "7": { "name": "Logitech MX Master 3S Mouse", "description": "The best productivity mouse with an ergonomic design and advanced features." }, "8": { "name": "Google Pixel 8 Pro", "description": "A pure Android experience with a smart camera and exclusive features." }, "9": { "name": "Razer Viper Mini Gaming Mouse", "description": "Lightweight and responsive, perfect for competitive gaming." }, "10": { "name": "Apple Watch SE (2nd Gen)", "description": "Essential features to help you stay connected, active, healthy, and safe." }, "11": { "name": "Keychron K2 Wireless Mechanical Keyboard", "description": "A compact 75% layout wireless mechanical keyboard with Gateron switches for Mac and Windows." }, "12": { "name": "Anker Soundcore Life Q30 Headphones", "description": "Hybrid Active Noise Cancelling Headphones with Multiple Modes and Hi-Res Audio." } },
   "productCard": { "reviews": "reviews", "comparePrices": "Compare Prices", "viewDeal": "View Deal from {{store}}", "addToWishlist": "Add to wishlist", "removeFromWishlist": "Remove from wishlist" },
   "coupons": { "title": "Exclusive Coupons", "expiresOn": "Expires on: {{date}}", "copyCode": "Copy Code", "copied": "Copied!", "1": { "description": "15% off on electronics" }, "2": { "description": "10% off on laptops" }, "3": { "description": "20% off on mobile accessories" } },
   "aiGuide": { "title": "Your AI Buying Guide", "subtitle": "Not sure what to buy? Ask our AI to generate a custom buying guide for you.", "placeholder": "e.g., Best video editing laptop under $1500", "buttonText": "Generate Guide", "loading": "Generating...", "guideTitle": "Your Custom Guide: {{topic}}", "error": { "topicRequired": "Please enter a topic to generate the guide.", "generationFailed": "An error occurred while generating the guide. Please try again." } },
@@ -37,7 +38,8 @@ const enTranslations = {
   "footer": { "brand": "Tech Deals", "copyright": "All rights reserved © {{year}}", "about": "About Us", "privacy": "Privacy Policy" },
   "stores": { "amazon": "Amazon", "jarir": "Jarir", "noon": "Noon", "extra": "Extra", "shein": "SHEIN" },
   "login": { "title": "Admin Panel Login", "username": "Username", "password": "Password", "loginButton": "Login", "error": "Invalid username or password." },
-  "admin": { "panelTitle": "Admin Panel", "logout": "Logout", "manageUsers": "Manage Users", "addNewUser": "Add New User", "username": "Username", "role": "Role", "actions": "Actions", "edit": "Edit", "delete": "Delete", "deleteConfirm": "Are you sure you want to delete this user?", "manageProducts": "Manage Products", "addNewProduct": "Add New Product", "productName": "Product Name", "category": "Category", "price": "Price (SAR)", "manageCoupons": "Manage Coupons", "addNewCoupon": "Add New Coupon", "store": "Store", "code": "Code", "description": "Description", "manageBlog": "Manage Blog", "addNewPost": "Add New Post", "postTitle": "Post Title", "author": "Author", "date": "Date", "blogForm": { "addPostTitle": "Add New Post", "editPostTitle": "Edit Post", "title": "Title", "author": "Author", "publishDate": "Publish Date", "imageUrl": "Image URL", "content": "Content", "cancel": "Cancel", "save": "Save" }, "userForm": { "addUserTitle": "Add New User", "editUserTitle": "Edit User", "password": "Password", "passwordHint": "Leave blank to keep unchanged", "role": "Role", "cancel": "Cancel", "save": "Save" }, "productForm": { "addProductTitle": "Add New Product", "editProductTitle": "Edit Product", "name": "Name", "category": "Category", "price": "Price (SAR)", "originalPrice": "Original Price (Optional)", "store": "Store", "affiliateLink": "Affiliate Link", "imageUrl": "Image URL", "description": "Description", "cancel": "Cancel", "save": "Save" }, "couponForm": { "addCouponTitle": "Add New Coupon", "editCouponTitle": "Edit Coupon", "store": "Store", "code": "Code", "description": "Description", "expiryDate": "Expiry Date", "storeLogoUrl": "Store Logo URL", "cancel": "Cancel", "save": "Save" }, "roles": { "ADMIN": "Admin", "EDITOR": "Editor" }, "manageSite": "Site Settings", "manageSiteDesc": "Manage general site content like About Us and Privacy Policy.", "aboutUs": "About Us", "privacyPolicy": "Privacy Policy", "copyrightYear": "Copyright Year", "saveSettings": "Save Settings", "settingsSaved": "Settings saved successfully!", "siteVisibility": "Visibility Settings", "siteVisibilityDesc": "Control which sections are visible on the homepage.", "showBlogSection": "Show Blog Section", "showCouponsSection": "Show Coupons Section", "monetization": "Monetization", "monetizationDesc": "Manage advertising and commission settings.", "adsenseId": "Google AdSense Publisher ID", "pixelId": "Facebook Pixel ID", "commissionRate": "Default Affiliate Commission Rate (%)", "showAds": "Show Advertisements on Site", "earningsDashboard": "Earnings Dashboard", "earningsDesc": "An overview of potential affiliate commission earnings.", "productCount": "Total Products: {{count}}", "addProductByUrl": "Add via Link", "productUrlModal": { "title": "Generate Product from URL", "placeholder": "https://example.com/product-page", "generate": "Generate Product", "generating": "Generating...", "error": "Could not extract product details. Please check the URL or try another page." }, "automationSettings": "Automation Settings", "automationSettingsDesc": "Manage automatic content generation and updates.", "enableAutoAdd": "Enable Automatic Product Addition", "enableAutoAddDesc": "When enabled, the system will automatically add new deals periodically." }
+  "admin": { "panelTitle": "Admin Panel", "logout": "Logout", "manageUsers": "Manage Users", "addNewUser": "Add New User", "username": "Username", "role": "Role", "actions": "Actions", "edit": "Edit", "delete": "Delete", "deleteConfirm": "Are you sure you want to delete this user?", "manageProducts": "Manage Products", "addNewProduct": "Add New Product", "productName": "Product Name", "category": "Category", "price": "Price (SAR)", "manageCoupons": "Manage Coupons", "addNewCoupon": "Add New Coupon", "store": "Store", "code": "Code", "description": "Description", "manageBlog": "Manage Blog", "addNewPost": "Add New Post", "postTitle": "Post Title", "author": "Author", "date": "Date", "blogForm": { "addPostTitle": "Add New Post", "editPostTitle": "Edit Post", "title": "Title", "author": "Author", "date": "Publish Date", "imageUrl": "Image URL", "content": "Content", "cancel": "Cancel", "save": "Save" }, "userForm": { "addUserTitle": "Add New User", "editUserTitle": "Edit User", "password": "Password", "passwordHint": "Leave blank to keep unchanged", "role": "Role", "cancel": "Cancel", "save": "Save" }, "productForm": { "addProductTitle": "Add New Product", "editProductTitle": "Edit Product", "name": "Name", "category": "Category", "price": "Price (SAR)", "originalPrice": "Original Price (Optional)", "store": "Store", "affiliateLink": "Affiliate Link", "imageUrl": "Image URL", "description": "Description", "cancel": "Cancel", "save": "Save" }, "couponForm": { "addCouponTitle": "Add New Coupon", "editCouponTitle": "Edit Coupon", "store": "Store", "code": "Code", "description": "Description", "expiryDate": "Expiry Date", "storeLogoUrl": "Store Logo URL", "cancel": "Cancel", "save": "Save" }, "roles": { "ADMIN": "Admin", "EDITOR": "Editor" }, "manageSite": "Site Settings", "manageSiteDesc": "Manage general site content like About Us and Privacy Policy.", "aboutUs": "About Us", "privacyPolicy": "Privacy Policy", "copyrightYear": "Copyright Year", "saveSettings": "Save Settings", "settingsSaved": "Settings saved successfully!", "siteVisibility": "Visibility Settings", "siteVisibilityDesc": "Control which sections are visible on the homepage.", "showBlogSection": "Show Blog Section", "showCouponsSection": "Show Coupons Section", "monetization": "Monetization", "monetizationDesc": "Manage advertising and commission settings.", "adsenseId": "Google AdSense Publisher ID", "pixelId": "Facebook Pixel ID", "commissionRate": "Default Affiliate Commission Rate (%)", "showAds": "Show Advertisements on Site", "earningsDashboard": "Earnings Dashboard", "earningsDesc": "An overview of potential affiliate commission earnings.", "productCount": "Total Products: {{count}}", "addProductByUrl": "Add via Link", "productUrlModal": { "title": "Generate Product from URL", "placeholder": "https://example.com/product-page", "generate": "Generate Product", "generating": "Generating...", "error": "Could not extract product details. Please check the URL or try another page." }, "automationSettings": { "title": "Automation Settings", "desc": "Manage automatic content generation and updates.", "enableAutoAdd": "Enable Automatic Product Addition", "enableAutoAddDesc": "When enabled, the system will automatically add new deals periodically." } },
+  "notifications": { "newProductAdded": "New product added: {{productName}}" }
 };
 const translations = { ar: arTranslations, en: enTranslations };
 
@@ -57,15 +59,18 @@ const formatCurrency = (price, targetCurrency, locale) => {
 };
 
 const initialProducts = [
-  { id: 1, name: 'لابتوب Dell XPS 15', category: 'laptops', price: 6500, originalPrice: 7200, imageUrl: 'https://picsum.photos/seed/laptop/400/300', rating: 4.8, reviewCount: 250, description: 'لابتوب قوي بشاشة OLED مذهلة، مثالي للمصممين والمطورين.', store: 'amazon', affiliateLink: 'https://www.amazon.sa', priceComparison: [ { store: 'amazon', price: 6500, affiliateLink: 'https://www.amazon.sa' }, { store: 'jarir', price: 6550, affiliateLink: 'https://www.jarir.com' }, { store: 'noon', price: 6600, affiliateLink: 'https://www.noon.com/saudi-en/' }, ] },
-  { id: 2, name: 'هاتف Samsung Galaxy S23 Ultra', category: 'smartphones', price: 4300, imageUrl: 'https://picsum.photos/seed/phone/400/300', rating: 4.9, reviewCount: 890, description: 'كاميرا استثنائية وأداء فائق مع قلم S Pen لتجربة لا مثيل لها.', store: 'noon', affiliateLink: 'https://www.noon.com/saudi-en/', },
-  { id: 3, name: 'سماعات Sony WH-1000XM5', category: 'headphones', price: 1450, originalPrice: 1600, imageUrl: 'https://picsum.photos/seed/headphones/400/300', rating: 4.7, reviewCount: 1200, description: 'أفضل تقنية لعزل الضوضاء في فئتها مع جودة صوت لا تضاهى.', store: 'jarir', affiliateLink: 'https://www.jarir.com', priceComparison: [ { store: 'jarir', price: 1450, affiliateLink: 'https://www.jarir.com' }, { store: 'amazon', price: 1475, affiliateLink: 'https://www.amazon.sa' }, ] },
-  { id: 4, name: 'شاشة ألعاب LG UltraGear 27"', category: 'monitors', price: 1800, imageUrl: 'https://picsum.photos/seed/monitor/400/300', rating: 4.6, reviewCount: 450, description: 'شاشة 4K بمعدل تحديث 144Hz لتجربة ألعاب سلسة وممتعة.', store: 'amazon', affiliateLink: 'https://www.amazon.sa', },
-  { id: 5, name: 'Apple iPad Air', category: 'tablets', price: 2400, imageUrl: 'https://picsum.photos/seed/ipad/400/300', rating: 4.9, reviewCount: 1500, description: 'تصميم أنيق وأداء قوي مع شريحة M1.', store: 'extra', affiliateLink: 'https://www.extra.com', },
-  { id: 6, name: 'كاميرا Canon EOS R6', category: 'cameras', price: 9800, originalPrice: 10500, imageUrl: 'https://picsum.photos/seed/camera/400/300', rating: 4.8, reviewCount: 320, description: 'كاميرا احترافية لتصوير الفيديو والصور بجودة عالية.', store: 'jarir', affiliateLink: 'https://www.jarir.com', },
-  { id: 7, name: 'ماوس لوجيتك MX Master 3S', category: 'accessories', price: 450, imageUrl: 'https://picsum.photos/seed/mouse/400/300', rating: 4.9, reviewCount: 2100, description: 'أفضل ماوس للإنتاجية بتصميم مريح وميزات متقدمة.', store: 'amazon', affiliateLink: 'https://www.amazon.sa', priceComparison: [ { store: 'amazon', price: 450, affiliateLink: 'https://www.amazon.sa' }, { store: 'jarir', price: 449, affiliateLink: 'https://www.jarir.com' }, ] },
-  { id: 8, name: 'هاتف Google Pixel 8 Pro', category: 'smartphones', price: 3800, imageUrl: 'https://picsum.photos/seed/pixel8/400/300', rating: 4.7, reviewCount: 650, description: 'تجربة أندرويد خام مع كاميرا ذكية وميزات حصرية.', store: 'amazon', affiliateLink: 'https://www.amazon.sa', },
-  { id: 9, name: 'ماوس الألعاب Razer Viper Mini', category: 'accessories', price: 150, originalPrice: 180, imageUrl: 'https://picsum.photos/seed/razermouse/400/300', rating: 4.6, reviewCount: 3200, description: 'خفيف الوزن وسريع الاستجابة، مثالي للألعاب التنافسية.', store: 'amazon', affiliateLink: 'https://www.amazon.sa', priceComparison: [ { store: 'amazon', price: 150, affiliateLink: 'https://www.amazon.sa' }, { store: 'jarir', price: 155, affiliateLink: 'https://www.jarir.com' }, ] }
+  { id: 1, category: 'laptops', price: 6500, originalPrice: 7200, imageUrl: 'https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9530/media-gallery/touch-silver/notebook-xps-15-9530-t-sl-gallery-4.psd?fmt=pjpg&pscan=auto&scl=1&hei=402&wid=573&qlt=100,1&resMode=sharp2&size=573,402&chrss=full', rating: 4.8, reviewCount: 250, store: 'amazon', affiliateLink: 'https://www.amazon.sa', priceComparison: [ { store: 'amazon', price: 6500, affiliateLink: 'https://www.amazon.sa' }, { store: 'jarir', price: 6550, affiliateLink: 'https://www.jarir.com' }, { store: 'noon', price: 6600, affiliateLink: 'https://www.noon.com/saudi-en/' }, ] },
+  { id: 2, category: 'smartphones', price: 4300, imageUrl: 'https://images.samsung.com/is/image/samsung/p6pim/sa_en/2302/gallery/sa_en-galaxy-s23-ultra-s918-sm-s918bzgkmea-534862319?$650_519_PNG$', rating: 4.9, reviewCount: 890, store: 'noon', affiliateLink: 'https://www.noon.com/saudi-en/', },
+  { id: 3, category: 'headphones', price: 1450, originalPrice: 1600, imageUrl: 'https://www.sony.com/image/5d02da5df55283f2a24d732e9bdb272a?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF', rating: 4.7, reviewCount: 1200, store: 'jarir', affiliateLink: 'https://www.jarir.com', priceComparison: [ { store: 'jarir', price: 1450, affiliateLink: 'https://www.jarir.com' }, { store: 'amazon', price: 1475, affiliateLink: 'https://www.amazon.sa' }, ] },
+  { id: 4, category: 'monitors', price: 1800, imageUrl: 'https://www.lg.com/us/images/monitors/md08003291/gallery/Desktop-01.jpg', rating: 4.6, reviewCount: 450, store: 'amazon', affiliateLink: 'https://www.amazon.sa', },
+  { id: 5, category: 'tablets', price: 2400, imageUrl: 'https://www.apple.com/v/ipad-air/t/images/overview/design/design_hero_1_xlarge.jpg', rating: 4.9, reviewCount: 1500, store: 'extra', affiliateLink: 'https://www.extra.com', },
+  { id: 6, category: 'cameras', price: 9800, originalPrice: 10500, imageUrl: 'https://pcfactory.com.bd/wp-content/uploads/2021/10/Canon-EOS-R6-Mirrorless-Digital-Camera-with-24-105mm-f4-7.1-Lens.jpg', rating: 4.8, reviewCount: 320, store: 'jarir', affiliateLink: 'https://www.jarir.com', },
+  { id: 7, category: 'accessories', price: 450, imageUrl: 'https://resource.logitech.com/w_386,ar_1.0,c_limit,q_auto,f_auto,dpr_2.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-master-3s/gallery/mx-master-3s-mouse-gallery-graphite-1.png?v=1', rating: 4.9, reviewCount: 2100, store: 'amazon', affiliateLink: 'https://www.amazon.sa', priceComparison: [ { store: 'amazon', price: 450, affiliateLink: 'https://www.amazon.sa' }, { store: 'jarir', price: 449, affiliateLink: 'https://www.jarir.com' }, ] },
+  { id: 8, category: 'smartphones', price: 3800, imageUrl: 'https://lh3.googleusercontent.com/f2-Duw_GPQ2i3TjVs7J1dG-o62b2-5s_hba58-B0T-t6iJdIo2hQ2I327f2-sAn0j4jOfi-12s-g_3QyD-34t_84_o0-O414r0c=rw-e365-w1000', rating: 4.7, reviewCount: 650, store: 'amazon', affiliateLink: 'https://www.amazon.sa', },
+  { id: 9, category: 'accessories', price: 150, originalPrice: 180, imageUrl: 'https://assets3.razerzone.com/i94g4Yp_m562V3HZ-1oF436y2-s=/1500x1000/media/catalog/product/1/6/16022022-viper-mini-1500x1000-1.jpg', rating: 4.6, reviewCount: 3200, store: 'amazon', affiliateLink: 'https://www.amazon.sa', priceComparison: [ { store: 'amazon', price: 150, affiliateLink: 'https://www.amazon.sa' }, { store: 'jarir', price: 155, affiliateLink: 'https://www.jarir.com' }, ] },
+  { id: 10, category: 'accessories', price: 999, originalPrice: 1150, imageUrl: 'https://www.apple.com/v/apple-watch-se/n/images/overview/reasons/why_se_hero__b1lsc1rttrsm_large.jpg', rating: 4.8, reviewCount: 1800, store: 'extra', affiliateLink: 'https://www.extra.com', priceComparison: [ { store: 'extra', price: 999, affiliateLink: 'https://www.extra.com' }, { store: 'jarir', price: 1049, affiliateLink: 'https://www.jarir.com' }, ] },
+  { id: 11, category: 'accessories', price: 350, imageUrl: 'https://m.media-amazon.com/images/I/61-r8n13SPL._AC_SL1500_.jpg', rating: 4.7, reviewCount: 2500, store: 'amazon', affiliateLink: 'https://www.amazon.sa' },
+  { id: 12, category: 'headphones', price: 300, originalPrice: 380, imageUrl: 'https://m.media-amazon.com/images/I/61+j-vM6cQL._AC_SL1500_.jpg', rating: 4.6, reviewCount: 50000, store: 'noon', affiliateLink: 'https://www.noon.com/saudi-en/' }
 ];
 const initialCoupons = [
   { id: 1, store: 'noon', storeLogoUrl: 'https://picsum.photos/seed/noonlogo/100/100', code: 'SAVE15', description: 'خصم 15% على الإلكترونيات', expiryDate: '2024-12-31', },
@@ -102,7 +107,7 @@ const initialBlogPosts = [
 هذه الملحقات لا تحسن من وظائف هاتفك فحسب، بل تحافظ عليه أيضًا.
         `, }
 ];
-const initialSiteSettings = { aboutUs: "Welcome to Tech Deals! We are dedicated to finding you the best prices and offers on the latest technology. Our mission is to make tech accessible and affordable for everyone.", privacyPolicy: "Your privacy is important to us. At Tech Deals, we are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, and safeguard your data when you visit our website. We do not sell your personal information to third parties.", copyrightYear: new Date().getFullYear(), googleAdSenseId: 'ca-pub-XXXXXXXXXXXXXXXX', facebookPixelId: 'XXXXXXXXXXXXXXXX', affiliateCommissionRate: 5, blogPosts: initialBlogPosts, showBlogSection: true, showCouponsSection: true, showAds: true, enableAutoAdd: false, };
+const initialSiteSettings = { aboutUs: "Welcome to Tech Deals! We are dedicated to finding you the best prices and offers on the latest technology. Our mission is to make tech accessible and affordable for everyone.", privacyPolicy: "Your privacy is important to us. At Tech Deals, we are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, and safeguard your data when you visit our website. We do not sell your personal information to third parties.", copyrightYear: new Date().getFullYear(), googleAdSenseId: 'ca-pub-XXXXXXXXXXXXXXXX', facebookPixelId: 'XXXXXXXXXXXXXXXX', affiliateCommissionRate: 5, blogPosts: initialBlogPosts, showBlogSection: true, showCouponsSection: true, showAds: true, enableAutoAdd: true, };
 const EXCHANGE_RATES = { SAR: 1, USD: 0.27, EUR: 0.25, AED: 0.98, EGP: 12.7, KWD: 0.082, LBP: 24000, RUB: 23, CNY: 1.93, KRW: 370, KPW: 370, INR: 22.3, PKR: 74, };
 const LANGUAGES = [ { code: 'ar', name: 'العربية', dir: 'rtl' }, { code: 'en', name: 'English', dir: 'ltr' }, ];
 const CURRENCIES = [ { code: 'SAR', name: 'Saudi Riyal', symbol: 'ر.س' }, { code: 'USD', name: 'US Dollar', symbol: '$' }, { code: 'EUR', name: 'Euro', symbol: '€' }, { code: 'AED', name: 'UAE Dirham', symbol: 'د.إ' }, { code: 'EGP', name: 'Egyptian Pound', symbol: 'ج.م' }, { code: 'KWD', name: 'Kuwaiti Dinar', symbol: 'د.ك' }, { code: 'LBP', name: 'Lebanese Pound', symbol: 'L£' }, { code: 'RUB', name: 'Russian Ruble', symbol: '₽' }, { code: 'CNY', name: 'Chinese Yuan', symbol: '¥' }, { code: 'KRW', name: 'South Korean Won', symbol: '₩' }, { code: 'KPW', name: 'North Korean Won', symbol: '₩' }, { code: 'INR', name: 'Indian Rupee', symbol: '₹' }, { code: 'PKR', name: 'Pakistani Rupee', symbol: '₨' }, ];
@@ -199,7 +204,7 @@ async function generateNewDeal(languageCode, existingProductNames = []) {
     };
     try {
         const prompt = `
-            Generate a single, realistic, and appealing tech product deal. The deal must be for a product that is not in the following list of existing product names: [${existingProductNames.join(', ')}].
+            Generate a single, realistic, and appealing tech product deal for a specific, real-world tech product model (e.g., 'Samsung Galaxy Watch 6', 'Dell Alienware m16 R2 Gaming Laptop') that is currently available for purchase. The deal must be for a product that is not in the following list of existing product names: [${existingProductNames.join(', ')}].
             - The product's name and description must be in ${languageName}.
             - The product category must be one of: laptops, smartphones, headphones, monitors, tablets, cameras, accessories.
             - The store must be one of: amazon, jarir, noon, extra.
@@ -406,6 +411,137 @@ const useLocalization = () => {
   return context;
 };
 
+const useModalAccessibility = (modalRef, isOpen, onClose) => {
+    const lastFocusedElement = useRef(null);
+
+    useEffect(() => {
+        if (isOpen) {
+            lastFocusedElement.current = document.activeElement;
+            
+            const timer = setTimeout(() => {
+                const focusableElements = modalRef.current?.querySelectorAll(
+                    'a[href]:not([disabled]), button:not([disabled]), textarea:not([disabled]), input:not([disabled]), select:not([disabled])'
+                );
+                const firstElement = focusableElements?.[0];
+                firstElement?.focus();
+            }, 100);
+
+            const handleKeyDown = (event) => {
+                if (event.key === 'Escape') {
+                    onClose();
+                }
+                if (event.key === 'Tab' && modalRef.current) {
+                    const focusableElements = modalRef.current.querySelectorAll(
+                        'a[href]:not([disabled]), button:not([disabled]), textarea:not([disabled]), input:not([disabled]), select:not([disabled])'
+                    );
+                    if (focusableElements.length === 0) return;
+                    
+                    const firstElement = focusableElements[0];
+                    const lastElement = focusableElements[focusableElements.length - 1];
+                    
+                    if (event.shiftKey) {
+                        if (document.activeElement === firstElement) {
+                            lastElement.focus();
+                            event.preventDefault();
+                        }
+                    } else {
+                        if (document.activeElement === lastElement) {
+                            firstElement.focus();
+                            event.preventDefault();
+                        }
+                    }
+                }
+            };
+            
+            document.addEventListener('keydown', handleKeyDown);
+
+            return () => {
+                clearTimeout(timer);
+                document.removeEventListener('keydown', handleKeyDown);
+                lastFocusedElement.current?.focus();
+            };
+        }
+    }, [isOpen, onClose, modalRef]);
+};
+
+// === NOTIFICATION SYSTEM ===
+const NotificationContext = createContext(undefined);
+
+const NotificationProvider = ({ children }) => {
+    const [notifications, setNotifications] = useState([]);
+
+    const addNotification = useCallback((message, type = 'success') => {
+        const id = Date.now();
+        setNotifications(prev => [...prev, { id, message, type }]);
+    }, []);
+
+    const removeNotification = useCallback((id) => {
+        setNotifications(prev => prev.filter(n => n.id !== id));
+    }, []);
+
+    const value = useMemo(() => ({ addNotification }), [addNotification]);
+
+    return (
+        React.createElement(NotificationContext.Provider, { value: value },
+            children,
+            React.createElement("div", { "aria-live": "assertive", className: "fixed inset-0 flex items-start px-4 py-6 pointer-events-none sm:p-6 sm:items-start z-[100]" },
+                React.createElement("div", { className: "w-full flex flex-col items-center space-y-4 sm:items-end" },
+                    notifications.map(notification => 
+                        React.createElement(Notification, { 
+                            key: notification.id, 
+                            notification: notification, 
+                            onClose: () => removeNotification(notification.id) 
+                        })
+                    )
+                )
+            )
+        )
+    );
+};
+
+const Notification = ({ notification, onClose }) => {
+    useEffect(() => {
+        const timer = setTimeout(onClose, 5000);
+        return () => clearTimeout(timer);
+    }, [onClose]);
+    
+    const bgColor = notification.type === 'success' ? 'bg-green-500' : 'bg-brand';
+
+    return (
+        React.createElement("div", { 
+            className: `max-w-sm w-full ${bgColor} shadow-lg rounded-lg pointer-events-auto ring-1 ring-black ring-opacity-5 overflow-hidden animate-slide-in-right`
+        },
+            React.createElement("div", { className: "p-4" },
+                React.createElement("div", { className: "flex items-start" },
+                    React.createElement("div", { className: "flex-shrink-0" },
+                        React.createElement("svg", { className: "h-6 w-6 text-white", xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", stroke: "currentColor", "aria-hidden": "true" },
+                            React.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "2", d: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" })
+                        )
+                    ),
+                    React.createElement("div", { className: "ml-3 w-0 flex-1 pt-0.5" },
+                        React.createElement("p", { className: "text-sm font-medium text-white" }, notification.message)
+                    ),
+                    React.createElement("div", { className: "ml-4 flex-shrink-0 flex" },
+                        React.createElement("button", { type: "button", onClick: onClose, className: "bg-transparent rounded-md inline-flex text-white hover:text-white/80 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white" },
+                            React.createElement("span", { className: "sr-only" }, "Close"),
+                            React.createElement(CloseIcon, { className: "h-5 w-5", "aria-hidden": "true" })
+                        )
+                    )
+                )
+            ),
+             React.createElement("style", null, `@keyframes slide-in-right { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } } .animate-slide-in-right { animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }`)
+        )
+    );
+};
+
+const useNotification = () => {
+    const context = useContext(NotificationContext);
+    if (!context) {
+        throw new Error('useNotification must be used within a NotificationProvider');
+    }
+    return context;
+};
+
 // === ICONS ===
 const SearchIcon = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", className: "h-6 w-6", fill: "none", viewBox: "0 0 24 24", stroke: "currentColor", strokeWidth: 2, ...props }, React.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", d: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" })));
 const HeartIcon = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: 2, strokeLinecap: "round", strokeLinejoin: "round", className: "w-6 h-6", ...props }, React.createElement("path", { d: "M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" })));
@@ -436,7 +572,7 @@ const Dropdown = ({ options, value, onChange, renderButton }) => {
   const selectedOption = options.find(opt => opt.value === value);
   return (
     React.createElement("div", { className: "relative", ref: dropdownRef },
-      React.createElement("button", { onClick: () => setIsOpen(!isOpen), className: "flex items-center", "aria-haspopup": "true", "aria-expanded": isOpen },
+      React.createElement("button", { type: "button", onClick: () => setIsOpen(!isOpen), className: "flex items-center", "aria-haspopup": "true", "aria-expanded": isOpen },
         renderButton(selectedOption),
         React.createElement(ChevronDownIcon, { className: `w-4 h-4 text-light transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}` })
       ),
@@ -467,11 +603,11 @@ const Header = ({ wishlistCount, onNavigate, onGoToCategories, onGoToBlog, siteS
       React.createElement("nav", { className: "container mx-auto px-4 py-2 flex justify-between items-center" },
         React.createElement("div", { className: "text-2xl font-black text-brand cursor-pointer", onClick: () => onNavigate('home') }, t('header.brand')),
         React.createElement("div", { className: "hidden md:flex items-center space-x-8 space-x-reverse text-lg font-semibold" },
-          React.createElement("a", { onClick: () => onNavigate('home'), className: "text-highlight hover:text-brand transition-colors cursor-pointer" }, t('header.home')),
-          React.createElement("a", { onClick: () => onNavigate('deals'), className: "text-highlight hover:text-brand transition-colors cursor-pointer" }, t('header.deals')),
-          React.createElement("a", { onClick: onGoToCategories, className: "text-highlight hover:text-brand transition-colors cursor-pointer" }, t('header.categories')),
+          React.createElement("button", { type: "button", onClick: () => onNavigate('home'), className: "text-highlight hover:text-brand transition-colors cursor-pointer" }, t('header.home')),
+          React.createElement("button", { type: "button", onClick: () => onNavigate('deals'), className: "text-highlight hover:text-brand transition-colors cursor-pointer" }, t('header.deals')),
+          React.createElement("button", { type: "button", onClick: onGoToCategories, className: "text-highlight hover:text-brand transition-colors cursor-pointer" }, t('header.categories')),
           siteSettings.showBlogSection && (
-            React.createElement("a", { onClick: onGoToBlog, className: "text-highlight hover:text-brand transition-colors cursor-pointer" }, t('header.blog'))
+            React.createElement("button", { type: "button", onClick: onGoToBlog, className: "text-highlight hover:text-brand transition-colors cursor-pointer" }, t('header.blog'))
           )
         ),
         React.createElement("div", { className: "flex items-center gap-2" },
@@ -482,7 +618,7 @@ const Header = ({ wishlistCount, onNavigate, onGoToCategories, onGoToBlog, siteS
                 renderButton: (selectedOption) => ( React.createElement("div", { className: "flex items-center gap-1 p-2 rounded-full hover:bg-accent transition-colors" }, React.createElement("span", { className: "text-lg" }, COUNTRIES.find(c => c.code === selectedOption?.value)?.flag)) )
             }),
           React.createElement("div", { className: "relative" },
-            React.createElement("button", { onClick: () => onNavigate('wishlist'), className: "flex items-center space-x-2 space-x-reverse p-2 rounded-full hover:bg-accent transition-colors", "aria-label": `${t('header.wishlistAriaLabel')}, ${wishlistCount} ${t('header.products')}` },
+            React.createElement("button", { type: "button", onClick: () => onNavigate('wishlist'), className: "flex items-center space-x-2 space-x-reverse p-2 rounded-full hover:bg-accent transition-colors", "aria-label": `${t('header.wishlistAriaLabel')}, ${wishlistCount} ${t('header.products')}` },
               React.createElement(HeartIcon, { className: "w-6 h-6 text-highlight" }),
               wishlistCount > 0 && ( React.createElement("span", { className: "absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center" }, wishlistCount) )
             )
@@ -500,11 +636,11 @@ const Footer = ({ onNavigate, siteSettings }) => {
         React.createElement("div", { className: "text-xl font-bold text-brand mb-2" }, t('footer.brand')),
         React.createElement("p", { className: "mb-4" }, t('footer.copyright', { year: siteSettings.copyrightYear })),
         React.createElement("div", { className: "flex justify-center space-x-6 space-x-reverse" },
-          React.createElement("a", { onClick: () => onNavigate('about'), className: "hover:text-brand transition-colors cursor-pointer" }, t('footer.about')),
-          React.createElement("a", { onClick: () => onNavigate('privacy'), className: "hover:text-brand transition-colors cursor-pointer" }, t('footer.privacy'))
+          React.createElement("button", { type: "button", onClick: () => onNavigate('about'), className: "hover:text-brand transition-colors cursor-pointer" }, t('footer.about')),
+          React.createElement("button", { type: "button", onClick: () => onNavigate('privacy'), className: "hover:text-brand transition-colors cursor-pointer" }, t('footer.privacy'))
         ),
         React.createElement("div", { className: "mt-6 border-t border-accent/20 pt-4" },
-           React.createElement("a", { onClick: () => onNavigate('admin'), className: "text-sm text-accent hover:text-brand transition-colors cursor-pointer" }, "Admin Panel")
+           React.createElement("button", { type: "button", onClick: () => onNavigate('admin'), className: "text-sm text-accent hover:text-brand transition-colors cursor-pointer" }, "Admin Panel")
         )
       )
     )
@@ -521,7 +657,7 @@ const ProductCard = ({ product, onToggleWishlist, isInWishlist, onComparePrices 
       React.createElement("div", { className: "relative" },
         React.createElement("img", { className: "w-full h-56 object-cover", src: product.imageUrl, alt: productName }),
         discount > 0 && ( React.createElement("div", { className: "absolute top-3 left-3 bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full shadow-lg" }, `-${discount}%`) ),
-        React.createElement("button", { onClick: () => onToggleWishlist(product.id), className: "absolute top-3 right-3 bg-black/30 p-2 rounded-full backdrop-blur-sm", "aria-label": isInWishlist ? t('productCard.removeFromWishlist') : t('productCard.addToWishlist') },
+        React.createElement("button", { type: "button", onClick: () => onToggleWishlist(product.id), className: "absolute top-3 right-3 bg-black/30 p-2 rounded-full backdrop-blur-sm", "aria-label": isInWishlist ? t('productCard.removeFromWishlist') : t('productCard.addToWishlist') },
           React.createElement(HeartIcon, { className: `w-6 h-6 transition-colors ${isInWishlist ? 'text-red-500 fill-current' : 'text-white'}` })
         )
       ),
@@ -539,7 +675,7 @@ const ProductCard = ({ product, onToggleWishlist, isInWishlist, onComparePrices 
         ),
         React.createElement("div", { className: "mt-auto flex flex-col gap-2 pt-4 border-t border-accent/20" },
             product.priceComparison && product.priceComparison.length > 1 && (
-                 React.createElement("button", { onClick: () => onComparePrices(product), className: "w-full text-center bg-accent text-highlight font-bold py-3 rounded-lg hover:bg-light hover:text-primary transition-colors duration-300" },
+                 React.createElement("button", { type: "button", onClick: () => onComparePrices(product), className: "w-full text-center bg-accent text-highlight font-bold py-3 rounded-lg hover:bg-light hover:text-primary transition-colors duration-300" },
                  t('productCard.comparePrices'))
             ),
             React.createElement("a", { href: product.affiliateLink, target: "_blank", rel: "noopener noreferrer", className: "w-full text-center bg-brand text-primary font-bold py-3 rounded-lg hover:bg-sky-400 transition-colors duration-300" },
@@ -551,11 +687,15 @@ const ProductCard = ({ product, onToggleWishlist, isInWishlist, onComparePrices 
 };
 const PriceComparisonModal = ({ product, onClose }) => {
   const { t, currency, language, convertPrice } = useLocalization();
-  if (!product.priceComparison) { return null; }
+  const modalRef = useRef(null);
+  useModalAccessibility(modalRef, !!product, onClose);
+
+  if (!product || !product.priceComparison) { return null; }
+
   const convertedPriceComparison = product.priceComparison.map(record => ({ ...record, price: convertPrice(record.price) }));
   const bestPrice = Math.min(...convertedPriceComparison.map(p => p.price));
   const productName = product.name || t(`products.${product.id}.name`);
-  const modalContentProps = { className: "bg-secondary rounded-2xl p-6 md:p-8 w-full max-w-lg mx-auto shadow-2xl border border-accent/30 transform animate-scale-in", onClick: (e) => e.stopPropagation() };
+  const modalContentProps = { ref: modalRef, className: "bg-secondary rounded-2xl p-6 md:p-8 w-full max-w-lg mx-auto shadow-2xl border border-accent/30 transform animate-scale-in", onClick: (e) => e.stopPropagation() };
   return (
     React.createElement("div", { className: "fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4 animate-fade-in", onClick: onClose, role: "dialog", "aria-modal": "true", "aria-labelledby": "price-comparison-title" },
       React.createElement("div", { ...modalContentProps },
@@ -564,7 +704,7 @@ const PriceComparisonModal = ({ product, onClose }) => {
             React.createElement("p", { className: "text-sm text-brand font-semibold" }, t(`categories.${product.category}`)),
             React.createElement("h2", { id: "price-comparison-title", className: "text-2xl font-bold text-white" }, productName)
           ),
-          React.createElement("button", { onClick: onClose, className: "text-light hover:text-white p-1 rounded-full hover:bg-accent transition-colors", "aria-label": t('modal.close') },
+          React.createElement("button", { type: "button", onClick: onClose, className: "text-light hover:text-white p-1 rounded-full hover:bg-accent transition-colors", "aria-label": t('modal.close') },
             React.createElement(CloseIcon, { className: "w-6 h-6" }))
         ),
         React.createElement("img", { src: product.imageUrl, alt: productName, className: "w-full h-56 object-cover rounded-lg mb-6" }),
@@ -593,13 +733,15 @@ const PriceComparisonModal = ({ product, onClose }) => {
 };
 const InfoModal = ({ title, content, onClose }) => {
     const { t } = useLocalization();
-    const modalContentProps = { className: "bg-secondary rounded-2xl p-6 md:p-8 w-full max-w-3xl mx-auto shadow-2xl border border-accent/30 max-h-[80vh] flex flex-col transform animate-scale-in", onClick: (e) => e.stopPropagation() };
+    const modalRef = useRef(null);
+    useModalAccessibility(modalRef, true, onClose);
+    const modalContentProps = { ref: modalRef, className: "bg-secondary rounded-2xl p-6 md:p-8 w-full max-w-3xl mx-auto shadow-2xl border border-accent/30 max-h-[80vh] flex flex-col transform animate-scale-in", onClick: (e) => e.stopPropagation() };
     return (
         React.createElement("div", { className: "fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4 animate-fade-in", onClick: onClose, role: "dialog", "aria-modal": "true", "aria-labelledby": "info-modal-title" },
           React.createElement("div", { ...modalContentProps },
             React.createElement("div", { className: "flex justify-between items-center mb-4 flex-shrink-0" },
               React.createElement("h2", { id: "info-modal-title", className: "text-2xl font-bold text-white" }, title),
-              React.createElement("button", { onClick: onClose, className: "text-light hover:text-white p-1 rounded-full hover:bg-accent transition-colors", "aria-label": t('modal.close') },
+              React.createElement("button", { type: "button", onClick: onClose, className: "text-light hover:text-white p-1 rounded-full hover:bg-accent transition-colors", "aria-label": t('modal.close') },
                 React.createElement(CloseIcon, { className: "w-6 h-6" }))
             ),
             React.createElement("div", { className: "overflow-y-auto prose prose-invert max-w-none text-highlight prose-p:text-light prose-headings:text-white" },
@@ -615,13 +757,15 @@ const InfoModal = ({ title, content, onClose }) => {
 };
 const BlogPostModal = ({ post, onClose }) => {
     const { t } = useLocalization();
-    const modalContentProps = { className: "bg-secondary rounded-2xl w-full max-w-4xl mx-auto shadow-2xl border border-accent/30 max-h-[90vh] flex flex-col transform animate-scale-in", onClick: (e) => e.stopPropagation() };
+    const modalRef = useRef(null);
+    useModalAccessibility(modalRef, !!post, onClose);
+    const modalContentProps = { ref: modalRef, className: "bg-secondary rounded-2xl w-full max-w-4xl mx-auto shadow-2xl border border-accent/30 max-h-[90vh] flex flex-col transform animate-scale-in", onClick: (e) => e.stopPropagation() };
     return (
         React.createElement("div", { className: "fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4 animate-fade-in", onClick: onClose, role: "dialog", "aria-modal": "true", "aria-labelledby": "blog-post-title" },
           React.createElement("div", { ...modalContentProps },
             React.createElement("div", { className: "relative" },
                 React.createElement("img", { src: post.imageUrl, alt: t(`blog.${post.id}.title`), className: "w-full h-64 object-cover rounded-t-2xl" }),
-                React.createElement("button", { onClick: onClose, className: "absolute top-4 right-4 text-white bg-black/40 p-2 rounded-full hover:bg-black/60 transition-colors", "aria-label": t('modal.close') },
+                React.createElement("button", { type: "button", onClick: onClose, className: "absolute top-4 right-4 text-white bg-black/40 p-2 rounded-full hover:bg-black/60 transition-colors", "aria-label": t('modal.close') },
                     React.createElement(CloseIcon, { className: "w-6 h-6" }))
             ),
             React.createElement("div", { className: "p-6 md:p-8 overflow-y-auto" },
@@ -642,7 +786,7 @@ const BlogPostModal = ({ post, onClose }) => {
 const InstallPWAButton = ({ onInstall }) => {
   const { t } = useLocalization();
   return (
-    React.createElement("button", { onClick: onInstall, className: "fixed bottom-4 right-4 bg-brand text-primary font-bold py-3 px-5 rounded-full shadow-lg flex items-center gap-3 hover:bg-sky-400 transition-all duration-300 transform hover:scale-105 z-50 animate-bounce", "aria-label": t('pwa.installButton') },
+    React.createElement("button", { type: "button", onClick: onInstall, className: "fixed bottom-4 right-4 bg-brand text-primary font-bold py-3 px-5 rounded-full shadow-lg flex items-center gap-3 hover:bg-sky-400 transition-all duration-300 transform hover:scale-105 z-50 animate-bounce", "aria-label": t('pwa.installButton') },
       React.createElement(DownloadIcon, { className: "w-6 h-6" }),
       React.createElement("span", null, t('pwa.installButton')),
        React.createElement("style", null, `
@@ -668,7 +812,7 @@ const CouponCard = ({ coupon }) => {
         React.createElement("p", { className: "text-light mb-2" }, t('coupons.expiresOn', { date: coupon.expiryDate })),
         React.createElement("div", { className: "flex justify-center sm:justify-start items-center gap-2 mt-4" },
           React.createElement("span", { className: "border-2 border-dashed border-accent text-brand font-mono text-lg py-2 px-4 rounded-md" }, coupon.code),
-          React.createElement("button", { onClick: handleCopy, className: `px-4 py-2 rounded-md font-bold transition-colors ${ copied ? 'bg-green-500 text-white' : 'bg-brand text-primary hover:bg-sky-400' }` },
+          React.createElement("button", { type: "button", onClick: handleCopy, className: `px-4 py-2 rounded-md font-bold transition-colors ${ copied ? 'bg-green-500 text-white' : 'bg-brand text-primary hover:bg-sky-400' }` },
             copied ? t('coupons.copied') : t('coupons.copyCode')
           )
         )
@@ -706,7 +850,7 @@ const AIGuideGenerator = () => {
       React.createElement("p", { className: "text-light text-center mb-6 max-w-2xl mx-auto" }, t('aiGuide.subtitle')),
       React.createElement("div", { className: "flex flex-col md:flex-row gap-4 max-w-3xl mx-auto" },
         React.createElement("input", { type: "text", value: topic, onChange: (e) => setTopic(e.target.value), placeholder: t('aiGuide.placeholder'), className: "flex-grow w-full py-3 px-4 bg-accent text-highlight rounded-lg focus:outline-none focus:ring-4 focus:ring-brand/50 transition-all duration-300", disabled: isLoading }),
-        React.createElement("button", { onClick: handleGenerate, disabled: isLoading, className: "bg-brand text-primary font-bold py-3 px-8 rounded-lg hover:bg-sky-400 transition-colors duration-300 disabled:bg-accent disabled:cursor-not-allowed" },
+        React.createElement("button", { type: "button", onClick: handleGenerate, disabled: isLoading, className: "bg-brand text-primary font-bold py-3 px-8 rounded-lg hover:bg-sky-400 transition-colors duration-300 disabled:bg-accent disabled:cursor-not-allowed" },
           isLoading ? ( React.createElement("div", { className: "flex items-center justify-center" }, React.createElement("svg", { className: "animate-spin h-5 w-5 text-white", xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24" }, React.createElement("circle", { className: "opacity-25", cx: "12", cy: "12", r: "10", stroke: "currentColor", strokeWidth: "4" }), React.createElement("path", { className: "opacity-75", fill: "currentColor", d: "M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" })), React.createElement("span", { className: "mx-3" }, t('aiGuide.loading'))) ) : t('aiGuide.buttonText')
         )
       ),
@@ -730,7 +874,7 @@ const BlogCard = ({ post, onReadMore }) => {
       React.createElement("div", { className: "p-6 flex flex-col flex-grow" },
         React.createElement("h3", { className: "font-bold text-xl text-white mt-1 mb-3 flex-grow group-hover:text-brand transition-colors" }, t(`blog.${post.id}.title`)),
         React.createElement("p", { className: "text-sm text-light mb-4" }, t('blog.publishedOn', { date: post.date, author: post.author })),
-        React.createElement("button", { onClick: () => onReadMore(post), className: "mt-auto w-full text-center bg-accent text-highlight font-bold py-3 rounded-lg hover:bg-brand hover:text-primary transition-colors duration-300" },
+        React.createElement("button", { type: "button", onClick: () => onReadMore(post), className: "mt-auto w-full text-center bg-accent text-highlight font-bold py-3 rounded-lg hover:bg-brand hover:text-primary transition-colors duration-300" },
           t('blog.readMore')
         )
       )
@@ -788,8 +932,8 @@ const HomePage = ({ view, products, coupons, wishlist, toggleWishlist, setView, 
           React.createElement("section", { ref: categoriesRef, className: "mb-8" },
             React.createElement("h2", { className: `text-3xl font-bold text-white mb-6 border-brand ${language.dir === 'rtl' ? 'border-r-4 pr-4' : 'border-l-4 pl-4'}` }, t('categories.title')),
             React.createElement("div", { className: "flex flex-wrap gap-4" },
-              React.createElement("button", { onClick: () => handleCategorySelect('all'), className: `px-6 py-2 rounded-full transition-colors duration-300 font-semibold shadow-md ${ activeCategory === 'all' ? 'bg-brand text-primary' : 'bg-accent text-highlight hover:bg-light hover:text-primary' }` }, t('categories.all')),
-              categories.map((category) => ( React.createElement("button", { key: category.key, onClick: () => handleCategorySelect(category.key), className: `px-6 py-2 rounded-full transition-colors duration-300 font-semibold shadow-md ${ activeCategory === category.key ? 'bg-brand text-primary' : 'bg-accent text-highlight hover:bg-light hover:text-primary' }` }, t(`categories.${category.key}`)) ))
+              React.createElement("button", { type: "button", onClick: () => handleCategorySelect('all'), className: `px-6 py-2 rounded-full transition-colors duration-300 font-semibold shadow-md ${ activeCategory === 'all' ? 'bg-brand text-primary' : 'bg-accent text-highlight hover:bg-light hover:text-primary' }` }, t('categories.all')),
+              categories.map((category) => ( React.createElement("button", { type: "button", key: category.key, onClick: () => handleCategorySelect(category.key), className: `px-6 py-2 rounded-full transition-colors duration-300 font-semibold shadow-md ${ activeCategory === category.key ? 'bg-brand text-primary' : 'bg-accent text-highlight hover:bg-light hover:text-primary' }` }, t(`categories.${category.key}`)) ))
             )
           ))
       ),
@@ -880,7 +1024,7 @@ const CollapsibleSection = ({ title, description, isOpen, onToggle, children }) 
   const { language } = useLocalization();
   return (
     React.createElement("div", { className: "bg-secondary rounded-xl shadow-lg overflow-hidden transition-all duration-300" },
-      React.createElement("button", { onClick: onToggle, className: "w-full flex justify-between items-center p-6 text-left hover:bg-accent/50 transition-colors", "aria-expanded": isOpen, "aria-controls": `collapsible-content-${title.replace(/\s+/g, '-')}` },
+      React.createElement("button", { type: "button", onClick: onToggle, className: "w-full flex justify-between items-center p-6 text-left hover:bg-accent/50 transition-colors", "aria-expanded": isOpen, "aria-controls": `collapsible-content-${title.replace(/\s+/g, '-')}` },
         React.createElement("div", { className: language.dir === 'rtl' ? 'text-right' : 'text-left' },
           React.createElement("h2", { className: "text-2xl font-bold text-white" }, title),
           description && React.createElement("p", { className: "text-light mt-1 text-sm" }, description)
@@ -894,14 +1038,17 @@ const CollapsibleSection = ({ title, description, isOpen, onToggle, children }) 
 const AddProductByUrlModal = ({ isOpen, isLoading, error, onGenerate, onClose }) => {
     const { t } = useLocalization();
     const [url, setUrl] = useState('');
+    const modalRef = useRef(null);
+    useModalAccessibility(modalRef, isOpen, onClose);
+
     if (!isOpen) { return null; }
     const handleSubmit = (e) => { e.preventDefault(); if (url) { onGenerate(url); } };
     return (
         React.createElement("div", { className: "fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4", onClick: onClose },
-            React.createElement("div", { className: "bg-secondary rounded-2xl p-6 md:p-8 w-full max-w-lg mx-auto shadow-2xl border border-accent/30", onClick: (e) => e.stopPropagation() },
+            React.createElement("div", { ref: modalRef, className: "bg-secondary rounded-2xl p-6 md:p-8 w-full max-w-lg mx-auto shadow-2xl border border-accent/30", onClick: (e) => e.stopPropagation() },
                 React.createElement("div", { className: "flex justify-between items-center mb-6" },
                     React.createElement("h2", { className: "text-2xl font-bold text-white" }, t('admin.productUrlModal.title')),
-                    React.createElement("button", { onClick: onClose, className: "text-light hover:text-white p-1 rounded-full hover:bg-accent transition-colors", disabled: isLoading }, React.createElement(CloseIcon, { className: "w-6 h-6" }))
+                    React.createElement("button", { type: "button", onClick: onClose, className: "text-light hover:text-white p-1 rounded-full hover:bg-accent transition-colors", disabled: isLoading }, React.createElement(CloseIcon, { className: "w-6 h-6" }))
                 ),
                 React.createElement("form", { onSubmit: handleSubmit, className: "space-y-4" },
                     React.createElement("div", null, React.createElement("input", { type: "url", name: "productUrl", value: url, onChange: (e) => setUrl(e.target.value), placeholder: t('admin.productUrlModal.placeholder'), required: true, disabled: isLoading, className: "w-full bg-accent text-highlight rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-brand" })),
@@ -920,16 +1067,19 @@ const AddProductByUrlModal = ({ isOpen, isLoading, error, onGenerate, onClose })
 const BlogFormModal = ({ post, onSave, onClose }) => {
   const { t } = useLocalization();
   const [formData, setFormData] = useState(post || { title: '', author: '', date: new Date().toISOString().split('T')[0], imageUrl: '', content: '' });
+  const modalRef = useRef(null);
+  useModalAccessibility(modalRef, true, onClose);
+
   useEffect(() => { setFormData(post || { title: '', author: '', date: new Date().toISOString().split('T')[0], imageUrl: '', content: '' }); }, [post]);
   const handleChange = (e) => { const { name, value } = e.target; setFormData(prev => ({ ...prev, [name]: value })); };
   const handleSubmit = (e) => { e.preventDefault(); onSave(formData); };
   const title = post && post.id ? t('admin.blogForm.editPostTitle') : t('admin.blogForm.addPostTitle');
   return (
     React.createElement("div", { className: "fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4", onClick: onClose },
-      React.createElement("div", { className: "bg-secondary rounded-2xl p-6 md:p-8 w-full max-w-3xl mx-auto shadow-2xl border border-accent/30 max-h-[90vh] overflow-y-auto", onClick: (e) => e.stopPropagation() },
+      React.createElement("div", { ref: modalRef, className: "bg-secondary rounded-2xl p-6 md:p-8 w-full max-w-3xl mx-auto shadow-2xl border border-accent/30 max-h-[90vh] overflow-y-auto", onClick: (e) => e.stopPropagation() },
         React.createElement("div", { className: "flex justify-between items-center mb-6" },
           React.createElement("h2", { className: "text-2xl font-bold text-white" }, title),
-          React.createElement("button", { onClick: onClose, className: "text-light hover:text-white p-1 rounded-full hover:bg-accent transition-colors" }, React.createElement(CloseIcon, { className: "w-6 h-6" }))
+          React.createElement("button", { type: "button", onClick: onClose, className: "text-light hover:text-white p-1 rounded-full hover:bg-accent transition-colors" }, React.createElement(CloseIcon, { className: "w-6 h-6" }))
         ),
         React.createElement("form", { onSubmit: handleSubmit, className: "space-y-4" },
             React.createElement("div", null, React.createElement("label", { htmlFor: "title", className: "block text-sm font-medium text-light mb-1" }, t('admin.blogForm.title')), React.createElement("input", { type: "text", name: "title", id: "title", value: formData.title, onChange: handleChange, required: true, className: "w-full bg-accent text-highlight rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-brand" })),
@@ -951,16 +1101,18 @@ const BlogFormModal = ({ post, onSave, onClose }) => {
 const CouponFormModal = ({ coupon, onSave, onClose }) => {
   const { t } = useLocalization();
   const [formData, setFormData] = useState(coupon || { store: '', storeLogoUrl: '', code: '', description: '', expiryDate: '' });
+  const modalRef = useRef(null);
+  useModalAccessibility(modalRef, true, onClose);
   useEffect(() => { setFormData(coupon || { store: '', storeLogoUrl: '', code: '', description: '', expiryDate: '' }); }, [coupon]);
   const handleChange = (e) => { const { name, value } = e.target; setFormData(prev => ({ ...prev, [name]: value })); };
   const handleSubmit = (e) => { e.preventDefault(); onSave(formData); };
   const title = coupon && coupon.id ? t('admin.couponForm.editCouponTitle') : t('admin.couponForm.addCouponTitle');
   return (
     React.createElement("div", { className: "fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4", onClick: onClose },
-      React.createElement("div", { className: "bg-secondary rounded-2xl p-6 md:p-8 w-full max-w-lg mx-auto shadow-2xl border border-accent/30", onClick: (e) => e.stopPropagation() },
+      React.createElement("div", { ref: modalRef, className: "bg-secondary rounded-2xl p-6 md:p-8 w-full max-w-lg mx-auto shadow-2xl border border-accent/30", onClick: (e) => e.stopPropagation() },
         React.createElement("div", { className: "flex justify-between items-center mb-6" },
           React.createElement("h2", { className: "text-2xl font-bold text-white" }, title),
-          React.createElement("button", { onClick: onClose, className: "text-light hover:text-white p-1 rounded-full hover:bg-accent transition-colors" }, React.createElement(CloseIcon, { className: "w-6 h-6" }))
+          React.createElement("button", { type: "button", onClick: onClose, className: "text-light hover:text-white p-1 rounded-full hover:bg-accent transition-colors" }, React.createElement(CloseIcon, { className: "w-6 h-6" }))
         ),
         React.createElement("form", { onSubmit: handleSubmit, className: "space-y-4" },
           React.createElement("div", null, React.createElement("label", { htmlFor: "store", className: "block text-sm font-medium text-light mb-1" }, t('admin.couponForm.store')), React.createElement("input", { type: "text", name: "store", id: "store", value: formData.store, onChange: handleChange, required: true, className: "w-full bg-accent text-highlight rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-brand" })),
@@ -1020,14 +1172,16 @@ const MonetizationSettings = ({ settings, onSave }) => {
 const ProductFormModal = ({ product, onSave, onClose }) => {
   const { t } = useLocalization();
   const [formData, setFormData] = useState(product || { name: '', description: '', category: categories[0]?.key || '', price: 0, originalPrice: undefined, imageUrl: '', rating: 0, reviewCount: 0, store: '', affiliateLink: '', priceComparison: [] });
+  const modalRef = useRef(null);
+  useModalAccessibility(modalRef, true, onClose);
   useEffect(() => { setFormData(product || { name: '', description: '', category: categories[0]?.key || '', price: 0, originalPrice: undefined, imageUrl: '', rating: 0, reviewCount: 0, store: '', affiliateLink: '', priceComparison: [] }); }, [product]);
   const handleChange = (e) => { const { name, value, type } = e.target; let processedValue = value; if (type === 'number') { processedValue = value === '' ? undefined : parseFloat(value); } setFormData(prev => ({ ...prev, [name]: processedValue })); };
   const handleSubmit = (e) => { e.preventDefault(); onSave(formData); };
   const title = product && product.id ? t('admin.productForm.editProductTitle') : t('admin.productForm.addProductTitle');
   return (
     React.createElement("div", { className: "fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4", onClick: onClose },
-      React.createElement("div", { className: "bg-secondary rounded-2xl p-6 md:p-8 w-full max-w-2xl mx-auto shadow-2xl border border-accent/30 max-h-[90vh] overflow-y-auto", onClick: (e) => e.stopPropagation() },
-        React.createElement("div", { className: "flex justify-between items-center mb-6" }, React.createElement("h2", { className: "text-2xl font-bold text-white" }, title), React.createElement("button", { onClick: onClose, className: "text-light hover:text-white p-1 rounded-full hover:bg-accent transition-colors" }, React.createElement(CloseIcon, { className: "w-6 h-6" }))),
+      React.createElement("div", { ref: modalRef, className: "bg-secondary rounded-2xl p-6 md:p-8 w-full max-w-2xl mx-auto shadow-2xl border border-accent/30 max-h-[90vh] overflow-y-auto", onClick: (e) => e.stopPropagation() },
+        React.createElement("div", { className: "flex justify-between items-center mb-6" }, React.createElement("h2", { className: "text-2xl font-bold text-white" }, title), React.createElement("button", { type: "button", onClick: onClose, className: "text-light hover:text-white p-1 rounded-full hover:bg-accent transition-colors" }, React.createElement(CloseIcon, { className: "w-6 h-6" }))),
         React.createElement("form", { onSubmit: handleSubmit, className: "space-y-4" },
           React.createElement("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-4" },
             React.createElement("div", null, React.createElement("label", { htmlFor: "name", className: "block text-sm font-medium text-light mb-1" }, t('admin.productForm.name')), React.createElement("input", { type: "text", name: "name", id: "name", value: formData.name, onChange: handleChange, required: true, className: "w-full bg-accent text-highlight rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-brand" })),
@@ -1074,14 +1228,16 @@ const SiteSettings = ({ settings, onSave }) => {
 const UserFormModal = ({ user, onSave, onClose }) => {
   const { t } = useLocalization();
   const [formData, setFormData] = useState(user ? { ...user, password: '' } : { username: '', password: '', role: 'EDITOR' });
+  const modalRef = useRef(null);
+  useModalAccessibility(modalRef, true, onClose);
   const handleChange = (e) => { const { name, value } = e.target; setFormData(prev => ({ ...prev, [name]: value })); };
   const handleSubmit = (e) => { e.preventDefault(); onSave(formData); };
   const isEditing = user && user.id;
   const title = isEditing ? t('admin.userForm.editUserTitle') : t('admin.userForm.addUserTitle');
   return (
     React.createElement("div", { className: "fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4", onClick: onClose },
-      React.createElement("div", { className: "bg-secondary rounded-2xl p-6 md:p-8 w-full max-w-md mx-auto shadow-2xl border border-accent/30", onClick: (e) => e.stopPropagation() },
-        React.createElement("div", { className: "flex justify-between items-center mb-6" }, React.createElement("h2", { className: "text-2xl font-bold text-white" }, title), React.createElement("button", { onClick: onClose, className: "text-light hover:text-white p-1 rounded-full hover:bg-accent transition-colors" }, React.createElement(CloseIcon, { className: "w-6 h-6" }))),
+      React.createElement("div", { ref: modalRef, className: "bg-secondary rounded-2xl p-6 md:p-8 w-full max-w-md mx-auto shadow-2xl border border-accent/30", onClick: (e) => e.stopPropagation() },
+        React.createElement("div", { className: "flex justify-between items-center mb-6" }, React.createElement("h2", { className: "text-2xl font-bold text-white" }, title), React.createElement("button", { type: "button", onClick: onClose, className: "text-light hover:text-white p-1 rounded-full hover:bg-accent transition-colors" }, React.createElement(CloseIcon, { className: "w-6 h-6" }))),
         React.createElement("form", { onSubmit: handleSubmit, className: "space-y-4" },
           React.createElement("div", null, React.createElement("label", { htmlFor: "username", className: "block text-sm font-medium text-light mb-1" }, t('admin.username')), React.createElement("input", { type: "text", name: "username", id: "username", value: formData.username, onChange: handleChange, required: true, className: "w-full bg-accent text-highlight rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-brand" })),
           React.createElement("div", null, React.createElement("label", { htmlFor: "password", className: "block text-sm font-medium text-light mb-1" }, t('admin.userForm.password')), React.createElement("input", { type: "password", name: "password", id: "password", value: formData.password, onChange: handleChange, placeholder: isEditing ? t('admin.userForm.passwordHint') : '', required: !isEditing, className: "w-full bg-accent text-highlight rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-brand" })),
@@ -1103,12 +1259,12 @@ const UserManagement = () => {
     const handleSave = (user) => { if (user.id) { updateUser(user); } else { addUser(user); } setIsModalOpen(false); };
     return (
         React.createElement(React.Fragment, null,
-            React.createElement("div", { className: "flex justify-end items-center mb-6" }, React.createElement("button", { onClick: handleAddNew, className: "bg-brand text-primary font-bold py-2 px-4 rounded-lg hover:bg-sky-400 transition-colors" }, t('admin.addNewUser'))),
+            React.createElement("div", { className: "flex justify-end items-center mb-6" }, React.createElement("button", { type: "button", onClick: handleAddNew, className: "bg-brand text-primary font-bold py-2 px-4 rounded-lg hover:bg-sky-400 transition-colors" }, t('admin.addNewUser'))),
             React.createElement("div", { className: "bg-primary p-4 rounded-xl shadow-inner" },
                 React.createElement("div", { className: "overflow-x-auto" },
                     React.createElement("table", { className: "w-full text-sm text-left text-light" },
                         React.createElement("thead", { className: "text-xs text-highlight uppercase bg-accent" }, React.createElement("tr", null, React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.username')), React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.role')), React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.actions')))),
-                        React.createElement("tbody", null, users.map(user => ( React.createElement("tr", { key: user.id, className: "border-b border-accent" }, React.createElement("td", { className: "px-6 py-4 font-medium text-white whitespace-nowrap" }, user.username), React.createElement("td", { className: "px-6 py-4" }, React.createElement("span", { className: `px-2 py-1 rounded-full text-xs font-semibold ${user.role === 'ADMIN' ? 'bg-sky-500 text-sky-100' : 'bg-green-500 text-green-100'}` }, t(`admin.roles.${user.role}`))), React.createElement("td", { className: "px-6 py-4 flex gap-4" }, React.createElement("button", { onClick: () => handleEdit(user), className: "font-medium text-brand hover:underline" }, t('admin.edit')), React.createElement("button", { onClick: () => handleDelete(user.id), className: "font-medium text-red-500 hover:underline" }, t('admin.delete')))) )))
+                        React.createElement("tbody", null, users.map(user => ( React.createElement("tr", { key: user.id, className: "border-b border-accent" }, React.createElement("td", { className: "px-6 py-4 font-medium text-white whitespace-nowrap" }, user.username), React.createElement("td", { className: "px-6 py-4" }, React.createElement("span", { className: `px-2 py-1 rounded-full text-xs font-semibold ${user.role === 'ADMIN' ? 'bg-sky-500 text-sky-100' : 'bg-green-500 text-green-100'}` }, t(`admin.roles.${user.role}`))), React.createElement("td", { className: "px-6 py-4 flex gap-4" }, React.createElement("button", { type: "button", onClick: () => handleEdit(user), className: "font-medium text-brand hover:underline" }, t('admin.edit')), React.createElement("button", { type: "button", onClick: () => handleDelete(user.id), className: "font-medium text-red-500 hover:underline" }, t('admin.delete')))) )))
                     )
                 )
             ),
@@ -1117,7 +1273,7 @@ const UserManagement = () => {
     );
 };
 const AdminPanel = ({ products, coupons, siteSettings, onSaveProduct, onDeleteProduct, onSaveCoupon, onDeleteCoupon, onSaveSiteSettings, onLogout }) => {
-  const { t, language } = useLocalization();
+  const { t, language, currency, convertPrice } = useLocalization();
   const { currentUser, logout } = useAuth();
   const [isProductModalOpen, setIsProductModalOpen] = useState(false);
   const [isCouponModalOpen, setIsCouponModalOpen] = useState(false);
@@ -1125,7 +1281,7 @@ const AdminPanel = ({ products, coupons, siteSettings, onSaveProduct, onDeletePr
   const [editingProduct, setEditingProduct] = useState(undefined);
   const [editingCoupon, setEditingCoupon] = useState(undefined);
   const [editingPost, setEditingPost] = useState(undefined);
-  const [openAdminSection, setOpenAdminSection] = useState(null);
+  const [openAdminSection, setOpenAdminSection] = useState('products');
   const [isUrlModalOpen, setIsUrlModalOpen] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
   const [generationError, setGenerationError] = useState('');
@@ -1155,8 +1311,10 @@ const AdminPanel = ({ products, coupons, siteSettings, onSaveProduct, onDeletePr
     handleBlogModalClose();
   };
   const handleDeletePost = (postId) => {
-    const updatedPosts = siteSettings.blogPosts.filter(p => p.id !== postId);
-    onSaveSiteSettings({ ...siteSettings, blogPosts: updatedPosts });
+    if (window.confirm(t('admin.deleteConfirm'))) {
+        const updatedPosts = siteSettings.blogPosts.filter(p => p.id !== postId);
+        onSaveSiteSettings({ ...siteSettings, blogPosts: updatedPosts });
+    }
   };
   const handleGenerateFromUrl = async (url) => {
     setIsGenerating(true); setGenerationError('');
@@ -1173,76 +1331,105 @@ const AdminPanel = ({ products, coupons, siteSettings, onSaveProduct, onDeletePr
     const { checked } = e.target;
     onSaveSiteSettings({ ...siteSettings, enableAutoAdd: checked });
   };
+  if (!currentUser) return null;
   return (
-    React.createElement("div", { className: "space-y-12" },
-      React.createElement("div", { className: "flex justify-between items-center" },
+    React.createElement("div", { className: "container mx-auto px-4 py-8" },
+      React.createElement("div", { className: "flex justify-between items-center mb-8" },
         React.createElement("h1", { className: "text-4xl font-bold text-white" }, t('admin.panelTitle')),
-        React.createElement("button", { onClick: handleLogout, className: "bg-red-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-red-700 transition-colors" }, t('admin.logout'))
+        React.createElement("button", { type: "button", onClick: handleLogout, className: "bg-accent text-highlight font-bold py-2 px-6 rounded-lg hover:bg-light hover:text-primary transition-colors" }, t('admin.logout'))
       ),
-      currentUser?.role === 'ADMIN' && (
-        React.createElement("div", { className: "space-y-6" },
-          React.createElement(CollapsibleSection, { title: t('admin.manageUsers'), isOpen: openAdminSection === 'users', onToggle: () => toggleAdminSection('users') }, React.createElement(UserManagement, null)),
-          React.createElement(CollapsibleSection, { title: t('admin.manageSite'), description: t('admin.manageSiteDesc'), isOpen: openAdminSection === 'site', onToggle: () => toggleAdminSection('site') }, React.createElement(SiteSettings, { settings: siteSettings, onSave: onSaveSiteSettings })),
-          React.createElement(CollapsibleSection, { title: t('admin.automationSettings'), description: t('admin.automationSettingsDesc'), isOpen: openAdminSection === 'automation', onToggle: () => toggleAdminSection('automation') }, 
-            React.createElement("div", { className: "bg-primary p-4 rounded-xl shadow-inner space-y-4" },
-                React.createElement("label", { htmlFor: "enableAutoAdd", className: "flex items-center cursor-pointer" },
-                    React.createElement("div", { className: "relative" },
-                        React.createElement("input", { type: "checkbox", id: "enableAutoAdd", className: "sr-only", checked: siteSettings.enableAutoAdd || false, onChange: handleAutomationToggle }),
-                        React.createElement("div", { className: `block w-14 h-8 rounded-full transition-colors ${siteSettings.enableAutoAdd ? 'bg-brand' : 'bg-accent'}` }),
-                        React.createElement("div", { className: `dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition-transform ${siteSettings.enableAutoAdd ? 'translate-x-6' : ''}` })
+      React.createElement("div", { className: "space-y-6" },
+        React.createElement(CollapsibleSection, { title: t('admin.manageProducts'), isOpen: openAdminSection === 'products', onToggle: () => toggleAdminSection('products') },
+            React.createElement("div", { className: "flex justify-end items-center mb-6 gap-4" }, 
+                React.createElement("button", { type: "button", onClick: () => setIsUrlModalOpen(true), className: "bg-sky-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-sky-500 transition-colors" }, t('admin.addProductByUrl')),
+                React.createElement("button", { type: "button", onClick: handleAddNewProduct, className: "bg-brand text-primary font-bold py-2 px-4 rounded-lg hover:bg-sky-400 transition-colors" }, t('admin.addNewProduct'))
+            ),
+            React.createElement("div", { className: "bg-primary p-4 rounded-xl shadow-inner overflow-x-auto" },
+                React.createElement("table", { className: "w-full text-sm text-left text-light" },
+                    React.createElement("thead", { className: "text-xs text-highlight uppercase bg-accent" }, 
+                        React.createElement("tr", null, 
+                            React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.productName')), 
+                            React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.category')), 
+                            React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.price')), 
+                            React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.actions'))
+                        )
                     ),
-                    React.createElement("div", { className: "mx-3 text-highlight" },
-                        React.createElement("p", { className: "font-bold" }, t('admin.enableAutoAdd')),
-                        React.createElement("p", { className: "text-sm text-light" }, t('admin.enableAutoAddDesc'))
-                    )
+                    React.createElement("tbody", null, products.map(p => ( 
+                        React.createElement("tr", { key: p.id, className: "border-b border-accent" },
+                            React.createElement("td", { className: "px-6 py-4 font-medium text-white" }, p.name || t(`products.${p.id}.name`)),
+                            React.createElement("td", { className: "px-6 py-4" }, t(`categories.${p.category}`)),
+                            React.createElement("td", { className: "px-6 py-4" }, formatCurrency(convertPrice(p.price), currency.code, language.code)),
+                            React.createElement("td", { className: "px-6 py-4 flex gap-4" }, 
+                                React.createElement("button", { type: "button", onClick: () => handleEditProduct(p), className: "font-medium text-brand hover:underline" }, t('admin.edit')), 
+                                React.createElement("button", { type: "button", onClick: () => onDeleteProduct(p.id), className: "font-medium text-red-500 hover:underline" }, t('admin.delete'))
+                            )
+                        )
+                    )))
                 )
             )
-          ),
-          React.createElement(CollapsibleSection, { title: t('admin.earningsDashboard'), description: t('admin.earningsDesc'), isOpen: openAdminSection === 'earnings', onToggle: () => toggleAdminSection('earnings') }, React.createElement(EarningsDashboard, { products: products, settings: siteSettings })),
-          React.createElement(CollapsibleSection, { title: t('admin.monetization'), description: t('admin.monetizationDesc'), isOpen: openAdminSection === 'monetization', onToggle: () => toggleAdminSection('monetization') }, React.createElement(MonetizationSettings, { settings: siteSettings, onSave: onSaveSiteSettings }))
-        )
-      ),
-      React.createElement("section", null,
-        React.createElement("div", { className: "flex justify-between items-center mb-6" },
-          React.createElement("h2", { className: `text-3xl font-bold text-white border-brand ${language.dir === 'rtl' ? 'border-r-4 pr-4' : 'border-l-4 pl-4'}` }, t('admin.manageBlog')),
-          React.createElement("button", { onClick: handleAddNewPost, className: "bg-brand text-primary font-bold py-2 px-4 rounded-lg hover:bg-sky-400 transition-colors" }, t('admin.addNewPost'))
         ),
-        React.createElement("div", { className: "bg-secondary p-4 rounded-xl shadow-lg" },
-          React.createElement("div", { className: "overflow-x-auto" },
-            React.createElement("table", { className: "w-full text-sm text-left text-light" },
-              React.createElement("thead", { className: "text-xs text-highlight uppercase bg-accent" }, React.createElement("tr", null, React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.postTitle')), React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.author')), React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.date')), React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.actions')))),
-              React.createElement("tbody", null, siteSettings.blogPosts.map(post => ( React.createElement("tr", { key: post.id, className: "border-b border-accent" }, React.createElement("td", { className: "px-6 py-4 font-medium text-white whitespace-nowrap" }, t(`blog.${post.id}.title`, {})), React.createElement("td", { className: "px-6 py-4" }, post.author), React.createElement("td", { className: "px-6 py-4" }, post.date), React.createElement("td", { className: "px-6 py-4 flex gap-4" }, React.createElement("button", { onClick: () => handleEditPost(post), className: "font-medium text-brand hover:underline" }, t('admin.edit')), React.createElement("button", { onClick: () => handleDeletePost(post.id), className: "font-medium text-red-500 hover:underline" }, t('admin.delete')))) )))
+        React.createElement(CollapsibleSection, { title: t('admin.manageCoupons'), isOpen: openAdminSection === 'coupons', onToggle: () => toggleAdminSection('coupons') },
+            React.createElement("div", { className: "flex justify-end items-center mb-6" }, React.createElement("button", { type: "button", onClick: handleAddNewCoupon, className: "bg-brand text-primary font-bold py-2 px-4 rounded-lg hover:bg-sky-400 transition-colors" }, t('admin.addNewCoupon'))),
+            React.createElement("div", { className: "bg-primary p-4 rounded-xl shadow-inner overflow-x-auto" },
+                React.createElement("table", { className: "w-full text-sm text-left text-light" },
+                    React.createElement("thead", { className: "text-xs text-highlight uppercase bg-accent" }, 
+                        React.createElement("tr", null, 
+                            React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.store')), 
+                            React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.code')), 
+                            React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.description')), 
+                            React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.actions'))
+                        )
+                    ),
+                    React.createElement("tbody", null, coupons.map(c => ( 
+                        React.createElement("tr", { key: c.id, className: "border-b border-accent" },
+                            React.createElement("td", { className: "px-6 py-4 font-medium text-white" }, c.store),
+                            React.createElement("td", { className: "px-6 py-4 font-mono text-brand" }, c.code),
+                            React.createElement("td", { className: "px-6 py-4" }, c.description),
+                            React.createElement("td", { className: "px-6 py-4 flex gap-4" }, 
+                                React.createElement("button", { type: "button", onClick: () => handleEditCoupon(c), className: "font-medium text-brand hover:underline" }, t('admin.edit')), 
+                                React.createElement("button", { type: "button", onClick: () => onDeleteCoupon(c.id), className: "font-medium text-red-500 hover:underline" }, t('admin.delete'))
+                            )
+                        )
+                    )))
+                )
             )
-          )
-        )
-      ),
-      React.createElement("section", null,
-        React.createElement("div", { className: "flex justify-between items-center mb-6" },
-          React.createElement("div", null, React.createElement("h2", { className: `text-3xl font-bold text-white border-brand ${language.dir === 'rtl' ? 'border-r-4 pr-4' : 'border-l-4 pl-4'}` }, t('admin.manageProducts')), React.createElement("span", { className: "text-sm text-light mt-1 block" }, t('admin.productCount', { count: products.length }))),
-          React.createElement("div", { className: "flex gap-2" },
-            React.createElement("button", { onClick: () => { setGenerationError(''); setIsUrlModalOpen(true); }, className: "bg-accent text-highlight font-bold py-2 px-4 rounded-lg hover:bg-light hover:text-primary transition-colors" }, t('admin.addProductByUrl')),
-            React.createElement("button", { onClick: handleAddNewProduct, className: "bg-brand text-primary font-bold py-2 px-4 rounded-lg hover:bg-sky-400 transition-colors" }, t('admin.addNewProduct'))
-          )
         ),
-        React.createElement("div", { className: "bg-secondary p-4 rounded-xl shadow-lg" },
-          React.createElement("div", { className: "overflow-x-auto" },
-            React.createElement("table", { className: "w-full text-sm text-left text-light" },
-              React.createElement("thead", { className: "text-xs text-highlight uppercase bg-accent" }, React.createElement("tr", null, React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.productName')), React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.category')), React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.price')), React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.actions')))),
-              React.createElement("tbody", null, products.map(product => ( React.createElement("tr", { key: product.id, className: "border-b border-accent" }, React.createElement("td", { className: "px-6 py-4 font-medium text-white whitespace-nowrap" }, product.name || t(`products.${product.id}.name`, {})), React.createElement("td", { className: "px-6 py-4" }, t(`categories.${product.category}`)), React.createElement("td", { className: "px-6 py-4" }, formatCurrency(product.price, 'SAR', language.code)), React.createElement("td", { className: "px-6 py-4 flex gap-4" }, React.createElement("button", { onClick: () => handleEditProduct(product), className: "font-medium text-brand hover:underline" }, t('admin.edit')), React.createElement("button", { onClick: () => onDeleteProduct(product.id), className: "font-medium text-red-500 hover:underline" }, t('admin.delete')))) )))
+        React.createElement(CollapsibleSection, { title: t('admin.manageBlog'), isOpen: openAdminSection === 'blog', onToggle: () => toggleAdminSection('blog') },
+            React.createElement("div", { className: "flex justify-end items-center mb-6" }, React.createElement("button", { type: "button", onClick: handleAddNewPost, className: "bg-brand text-primary font-bold py-2 px-4 rounded-lg hover:bg-sky-400 transition-colors" }, t('admin.addNewPost'))),
+            React.createElement("div", { className: "bg-primary p-4 rounded-xl shadow-inner overflow-x-auto" },
+                React.createElement("table", { className: "w-full text-sm text-left text-light" },
+                    React.createElement("thead", { className: "text-xs text-highlight uppercase bg-accent" }, 
+                        React.createElement("tr", null, 
+                            React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.postTitle')), 
+                            React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.author')), 
+                            React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.date')), 
+                            React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.actions'))
+                        )
+                    ),
+                    React.createElement("tbody", null, (siteSettings.blogPosts || []).map(p => ( 
+                        React.createElement("tr", { key: p.id, className: "border-b border-accent" },
+                            React.createElement("td", { className: "px-6 py-4 font-medium text-white" }, p.title),
+                            React.createElement("td", { className: "px-6 py-4" }, p.author),
+                            React.createElement("td", { className: "px-6 py-4" }, p.date),
+                            React.createElement("td", { className: "px-6 py-4 flex gap-4" }, 
+                                React.createElement("button", { type: "button", onClick: () => handleEditPost(p), className: "font-medium text-brand hover:underline" }, t('admin.edit')), 
+                                React.createElement("button", { type: "button", onClick: () => handleDeletePost(p.id), className: "font-medium text-red-500 hover:underline" }, t('admin.delete'))
+                            )
+                        )
+                    )))
+                )
             )
-          )
-        )
-      ),
-      React.createElement("section", null,
-        React.createElement("div", { className: "flex justify-between items-center mb-6" },
-          React.createElement("h2", { className: `text-3xl font-bold text-white border-brand ${language.dir === 'rtl' ? 'border-r-4 pr-4' : 'border-l-4 pl-4'}` }, t('admin.manageCoupons')),
-          React.createElement("button", { onClick: handleAddNewCoupon, className: "bg-brand text-primary font-bold py-2 px-4 rounded-lg hover:bg-sky-400 transition-colors" }, t('admin.addNewCoupon'))
         ),
-        React.createElement("div", { className: "bg-secondary p-4 rounded-xl shadow-lg" },
-          React.createElement("div", { className: "overflow-x-auto" },
-            React.createElement("table", { className: "w-full text-sm text-left text-light" },
-              React.createElement("thead", { className: "text-xs text-highlight uppercase bg-accent" }, React.createElement("tr", null, React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.store')), React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.code')), React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.description')), React.createElement("th", { scope: "col", className: "px-6 py-3" }, t('admin.actions')))),
-              React.createElement("tbody", null, coupons.map(coupon => ( React.createElement("tr", { key: coupon.id, className: "border-b border-accent" }, React.createElement("td", { className: "px-6 py-4 font-medium text-white whitespace-nowrap" }, t(`stores.${coupon.store}`)), React.createElement("td", { className: "px-6 py-4 font-mono text-brand" }, coupon.code), React.createElement("td", { className: "px-6 py-4" }, t(`coupons.${coupon.id}.description`)), React.createElement("td", { className: "px-6 py-4 flex gap-4" }, React.createElement("button", { onClick: () => handleEditCoupon(coupon), className: "font-medium text-brand hover:underline" }, t('admin.edit')), React.createElement("button", { onClick: () => onDeleteCoupon(coupon.id), className: "font-medium text-red-500 hover:underline" }, t('admin.delete')))) )))
+        currentUser.role === 'ADMIN' && React.createElement(CollapsibleSection, { title: t('admin.manageUsers'), isOpen: openAdminSection === 'users', onToggle: () => toggleAdminSection('users') }, React.createElement(UserManagement, null)),
+        React.createElement(CollapsibleSection, { title: t('admin.manageSite'), description: t('admin.manageSiteDesc'), isOpen: openAdminSection === 'site', onToggle: () => toggleAdminSection('site') }, React.createElement(SiteSettings, { settings: siteSettings, onSave: onSaveSiteSettings })),
+        React.createElement(CollapsibleSection, { title: t('admin.monetization'), description: t('admin.monetizationDesc'), isOpen: openAdminSection === 'monetization', onToggle: () => toggleAdminSection('monetization') }, React.createElement(MonetizationSettings, { settings: siteSettings, onSave: onSaveSiteSettings })),
+        React.createElement(CollapsibleSection, { title: t('admin.earningsDashboard'), description: `${t('admin.earningsDesc')} ${t('admin.productCount', { count: products.length })}`, isOpen: openAdminSection === 'earnings', onToggle: () => toggleAdminSection('earnings') }, React.createElement(EarningsDashboard, { products, settings: siteSettings })),
+        React.createElement(CollapsibleSection, { title: t('admin.automationSettings'), description: t('admin.automationSettingsDesc'), isOpen: openAdminSection === 'automation', onToggle: () => toggleAdminSection('automation') },
+          React.createElement("div", { className: "flex items-center" }, 
+            React.createElement("input", { type: "checkbox", name: "enableAutoAdd", id: "enableAutoAdd", checked: !!siteSettings.enableAutoAdd, onChange: handleAutomationToggle, className: "w-5 h-5 rounded bg-accent border-accent text-brand focus:ring-brand" }),
+            React.createElement("label", { htmlFor: "enableAutoAdd", className: "mx-3 flex flex-col" }, 
+              React.createElement("span", { className: "text-sm font-medium text-highlight" }, t('admin.enableAutoAdd')),
+              React.createElement("p", { className: "text-xs text-light" }, t('admin.enableAutoAddDesc'))
             )
           )
         )
@@ -1250,168 +1437,144 @@ const AdminPanel = ({ products, coupons, siteSettings, onSaveProduct, onDeletePr
       isProductModalOpen && React.createElement(ProductFormModal, { product: editingProduct, onSave: handleProductSave, onClose: handleProductModalClose }),
       isCouponModalOpen && React.createElement(CouponFormModal, { coupon: editingCoupon, onSave: handleCouponSave, onClose: handleCouponModalClose }),
       isBlogModalOpen && React.createElement(BlogFormModal, { post: editingPost, onSave: handleBlogSave, onClose: handleBlogModalClose }),
-       React.createElement(AddProductByUrlModal, { isOpen: isUrlModalOpen, isLoading: isGenerating, error: generationError, onGenerate: handleGenerateFromUrl, onClose: () => setIsUrlModalOpen(false) })
+      isUrlModalOpen && React.createElement(AddProductByUrlModal, { isOpen: isUrlModalOpen, isLoading: isGenerating, error: generationError, onGenerate: handleGenerateFromUrl, onClose: () => setIsUrlModalOpen(false) })
     )
   );
 };
-
-// === MAIN APP COMPONENT ===
 const App = () => {
   const { currentUser } = useAuth();
-  const { t, language } = useLocalization();
-  const [allProducts, setAllProducts] = useState(() => getStoredData('allProducts', initialProducts));
-  const [allCoupons, setAllCoupons] = useState(() => getStoredData('allCoupons', initialCoupons));
+  const { t } = useLocalization();
+  const [view, setView] = useState(currentUser ? 'admin-panel' : 'home');
+  const [products, setProducts] = useState(() => getStoredData('products', initialProducts));
+  const [coupons, setCoupons] = useState(() => getStoredData('coupons', initialCoupons));
   const [siteSettings, setSiteSettings] = useState(() => getStoredData('siteSettings', initialSiteSettings));
-  const [view, setView] = useState(() => getStoredData('currentView', 'home'));
   const [wishlist, setWishlist] = useState(() => getStoredData('wishlist', []));
+  const [infoModal, setInfoModal] = useState({ isOpen: false, title: '', content: '' });
+  const [blogPostModal, setBlogPostModal] = useState({ isOpen: false, post: null });
+  const [deferredInstallPrompt, setDeferredInstallPrompt] = useState(null);
+  const { addNotification } = useNotification();
+  const autoAddIntervalRef = useRef(null);
   const categoriesRef = useRef(null);
   const blogRef = useRef(null);
-  const [infoModalView, setInfoModalView] = useState(null);
-  const [viewingPost, setViewingPost] = useState(null);
-  const [installPromptEvent, setInstallPromptEvent] = useState(null);
-  const autoAddIntervalRef = useRef(null);
-
-  useEffect(() => { localStorage.setItem('allProducts', JSON.stringify(allProducts)); }, [allProducts]);
-  useEffect(() => { localStorage.setItem('allCoupons', JSON.stringify(allCoupons)); }, [allCoupons]);
-  useEffect(() => { localStorage.setItem('siteSettings', JSON.stringify(siteSettings)); }, [siteSettings]);
-  useEffect(() => { localStorage.setItem('wishlist', JSON.stringify(wishlist)); }, [wishlist]);
-  useEffect(() => { localStorage.setItem('currentView', JSON.stringify(view)); }, [view]);
-
+  useEffect(() => {
+    const handler = (e) => {
+      e.preventDefault();
+      setDeferredInstallPrompt(e);
+    };
+    window.addEventListener('beforeinstallprompt', handler);
+    return () => window.removeEventListener('beforeinstallprompt', handler);
+  }, []);
+  const handleInstallClick = async () => {
+    if (deferredInstallPrompt) {
+      deferredInstallPrompt.prompt();
+      const { outcome } = await deferredInstallPrompt.userChoice;
+      if (outcome === 'accepted') {
+        console.log('User accepted the install prompt');
+      } else {
+        console.log('User dismissed the install prompt');
+      }
+      setDeferredInstallPrompt(null);
+    }
+  };
+  const saveData = (key, data) => { localStorage.setItem(key, JSON.stringify(data)); };
+  useEffect(() => { saveData('products', products); }, [products]);
+  useEffect(() => { saveData('coupons', coupons); }, [coupons]);
+  useEffect(() => { saveData('siteSettings', siteSettings); }, [siteSettings]);
+  useEffect(() => { saveData('wishlist', wishlist); }, [wishlist]);
+  const handleAutoAddDeal = useCallback(async () => {
+      console.log("Attempting to auto-add a new deal...");
+      try {
+          const existingNames = products.map(p => p.name || t(`products.${p.id}.name`));
+          const newDealData = await generateNewDeal('en', existingNames);
+          if (newDealData) {
+              const newProduct = {
+                  ...newDealData,
+                  id: Date.now(),
+                  rating: (Math.random() * (5 - 4.5) + 4.5).toFixed(1),
+                  reviewCount: Math.floor(Math.random() * 2000) + 50,
+                  affiliateLink: 'https://www.example.com',
+                  priceComparison: []
+              };
+              setProducts(prev => [...prev, newProduct]);
+              addNotification(t('notifications.newProductAdded', { productName: newProduct.name }));
+              console.log("Successfully added new deal:", newProduct);
+          }
+      } catch (error) {
+          console.error("Failed to auto-add new deal:", error);
+      }
+  }, [products, addNotification, t]);
   useEffect(() => {
     if (siteSettings.enableAutoAdd) {
-        autoAddIntervalRef.current = setInterval(async () => {
-             console.log("Attempting to auto-add a new product via AI...");
-            try {
-                const existingNames = allProducts.map(p => p.name);
-                const dealData = await generateNewDeal(language.code, existingNames);
-
-                if (dealData && dealData.name && !existingNames.includes(dealData.name)) {
-                    const newProduct = {
-                        ...dealData,
-                        id: Date.now(),
-                        rating: parseFloat((Math.random() * (4.9 - 4.2) + 4.2).toFixed(1)),
-                        reviewCount: Math.floor(Math.random() * 2000) + 50,
-                        affiliateLink: `https://www.${dealData.store}.com`,
-                        priceComparison: []
-                    };
-
-                    console.log("Generated new product:", newProduct);
-                    setAllProducts(prevProducts => [...prevProducts, newProduct]);
-                } else {
-                     console.log("AI generation skipped or returned a duplicate product.");
-                }
-            } catch (error) {
-                console.error("Failed to auto-add product with AI:", error);
-            }
-        }, 20000);
-    } else if (autoAddIntervalRef.current) {
-        clearInterval(autoAddIntervalRef.current);
-        autoAddIntervalRef.current = null;
+        if (!autoAddIntervalRef.current) {
+            handleAutoAddDeal();
+            autoAddIntervalRef.current = setInterval(handleAutoAddDeal, 60000);
+        }
+    } else {
+        if (autoAddIntervalRef.current) {
+            clearInterval(autoAddIntervalRef.current);
+            autoAddIntervalRef.current = null;
+        }
     }
     return () => { if (autoAddIntervalRef.current) { clearInterval(autoAddIntervalRef.current); } };
-  }, [siteSettings.enableAutoAdd, allProducts, language.code]);
-
-  useEffect(() => {
-    const handleBeforeInstallPrompt = (e) => { e.preventDefault(); setInstallPromptEvent(e); };
-    window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
-    return () => { window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt); };
-  }, []);
-
-  const handleInstallClick = () => {
-    if (!installPromptEvent) { return; }
-    installPromptEvent.prompt();
-    installPromptEvent.userChoice.then(() => { setInstallPromptEvent(null); });
-  };
-
-  const handleSaveProduct = (productToSave) => {
-    setAllProducts(prev => {
-      if (productToSave.id && prev.some(p => p.id === productToSave.id)) {
-        return prev.map(p => p.id === productToSave.id ? productToSave : p);
-      }
-      return [...prev, { ...productToSave, id: Date.now() }];
+  }, [siteSettings.enableAutoAdd, handleAutoAddDeal]);
+  const toggleWishlist = (productId) => { setWishlist(prev => prev.includes(productId) ? prev.filter(id => id !== productId) : [...prev, productId]); };
+  const handleSaveProduct = (product) => {
+    let newProduct;
+    setProducts(prev => {
+        if (product.id) {
+            return prev.map(p => p.id === product.id ? product : p);
+        }
+        newProduct = { ...product, id: Date.now() };
+        addNotification(t('notifications.newProductAdded', { productName: newProduct.name }));
+        return [...prev, newProduct];
     });
   };
-  const handleDeleteProduct = (productId) => { setAllProducts(prev => prev.filter(p => p.id !== productId)); };
-
-  const handleSaveCoupon = (couponToSave) => {
-    setAllCoupons(prev => {
-      if (couponToSave.id && prev.some(c => c.id === couponToSave.id)) {
-        return prev.map(c => c.id === couponToSave.id ? couponToSave : p);
-      }
-      return [...prev, { ...couponToSave, id: Date.now() }];
-    });
-  };
-  const handleDeleteCoupon = (couponId) => { setAllCoupons(prev => prev.filter(c => c.id !== couponId)); };
-  
+  const handleDeleteProduct = (productId) => { setProducts(prev => prev.filter(p => p.id !== productId)); };
+  const handleSaveCoupon = (coupon) => { setCoupons(prev => { if (coupon.id) { return prev.map(c => c.id === coupon.id ? coupon : c); } return [...prev, { ...coupon, id: Date.now() }]; }); };
+  const handleDeleteCoupon = (couponId) => { setCoupons(prev => prev.filter(c => c.id !== couponId)); };
   const handleSaveSiteSettings = (settings) => { setSiteSettings(settings); };
-
-  const toggleWishlist = (productId) => {
-    setWishlist((prev) => prev.includes(productId) ? prev.filter((id) => id !== productId) : [...prev, productId]);
-  };
-  
-  const handleNavigate = (newView) => {
-    if (newView === 'admin' && !currentUser) {
-      setView('login');
-    } else if (newView === 'about' || newView === 'privacy') {
-        setInfoModalView(newView);
+  const navigate = (view) => {
+    if (view === 'about') {
+      setInfoModal({ isOpen: true, title: t('footer.about'), content: siteSettings.aboutUs });
+    } else if (view === 'privacy') {
+      setInfoModal({ isOpen: true, title: t('footer.privacy'), content: siteSettings.privacyPolicy });
     } else {
-      setView(newView);
-      setInfoModalView(null);
-    }
-    window.scrollTo(0, 0);
-  };
-  
-  const handleGoToCategories = () => {
-    if (view !== 'home') {
-      setView('home');
-      setTimeout(() => { categoriesRef.current?.scrollIntoView({ behavior: 'smooth' }); }, 100);
-    } else {
-      categoriesRef.current?.scrollIntoView({ behavior: 'smooth' });
+      setView(view);
+      window.scrollTo(0, 0);
     }
   };
-  
-  const handleGoToBlog = () => {
-    if (view !== 'home') {
-      setView('home');
-      setTimeout(() => { blogRef.current?.scrollIntoView({ behavior: 'smooth' }); }, 100);
-    } else {
-      blogRef.current?.scrollIntoView({ behavior: 'smooth' });
-    }
+  const handleViewPost = (post) => { setBlogPostModal({ isOpen: true, post: post }); };
+  const content = () => {
+    if (view === 'admin-panel' && currentUser) return React.createElement(AdminPanel, { products, coupons, siteSettings, onSaveProduct: handleSaveProduct, onDeleteProduct: handleDeleteProduct, onSaveCoupon: handleSaveCoupon, onDeleteCoupon: handleDeleteCoupon, onSaveSiteSettings: handleSaveSiteSettings, onLogout: () => setView('home') });
+    if (view === 'admin') return React.createElement(LoginPage, { onLoginSuccess: () => setView('admin-panel') });
+    return React.createElement(HomePage, { view, products, coupons, wishlist, toggleWishlist, setView, categoriesRef, blogRef, siteSettings, onViewPost: handleViewPost });
   };
-
-  const renderContent = () => {
-    if (view === 'login') {
-      return React.createElement(LoginPage, { onLoginSuccess: () => setView('admin') });
-    }
-    if (view === 'admin' && currentUser) {
-      return React.createElement(AdminPanel, { products: allProducts, coupons: allCoupons, onSaveProduct: handleSaveProduct, onDeleteProduct: handleDeleteProduct, onSaveCoupon: handleSaveCoupon, onDeleteCoupon: handleDeleteCoupon, siteSettings: siteSettings, onSaveSiteSettings: handleSaveSiteSettings, onLogout: () => setView('home') });
-    }
-    return React.createElement(HomePage, { view: view, products: allProducts, coupons: allCoupons, wishlist: wishlist, toggleWishlist: toggleWishlist, setView: setView, categoriesRef: categoriesRef, blogRef: blogRef, siteSettings: siteSettings, onViewPost: setViewingPost });
-  };
-  
   return (
-    React.createElement("div", { className: "min-h-screen flex flex-col bg-primary" },
-      React.createElement(Header, { wishlistCount: wishlist.length, onNavigate: handleNavigate, onGoToCategories: handleGoToCategories, onGoToBlog: handleGoToBlog, siteSettings: siteSettings }),
-      React.createElement("main", { className: "flex-grow container mx-auto px-4 py-8" }, renderContent()),
-      React.createElement(Footer, { onNavigate: handleNavigate, siteSettings: siteSettings }),
-      infoModalView && React.createElement(InfoModal, { title: t(`footer.${infoModalView}`), content: infoModalView === 'about' ? siteSettings.aboutUs : siteSettings.privacyPolicy, onClose: () => setInfoModalView(null) }),
-      viewingPost && React.createElement(BlogPostModal, { post: viewingPost, onClose: () => setViewingPost(null) }),
-      installPromptEvent && React.createElement(InstallPWAButton, { onInstall: handleInstallClick })
+    React.createElement("div", { className: "min-h-screen flex flex-col" },
+      React.createElement(Header, {
+        wishlistCount: wishlist.length,
+        onNavigate: navigate,
+        onGoToCategories: () => categoriesRef.current?.scrollIntoView({ behavior: 'smooth' }),
+        onGoToBlog: () => blogRef.current?.scrollIntoView({ behavior: 'smooth' }),
+        siteSettings: siteSettings
+      }),
+      React.createElement("main", { className: "container mx-auto px-4 py-8 flex-grow" }, content()),
+      React.createElement(Footer, { onNavigate: navigate, siteSettings: siteSettings }),
+      infoModal.isOpen && React.createElement(InfoModal, { title: infoModal.title, content: infoModal.content, onClose: () => setInfoModal({ isOpen: false, title: '', content: '' }) }),
+      blogPostModal.isOpen && React.createElement(BlogPostModal, { post: blogPostModal.post, onClose: () => setBlogPostModal({ isOpen: false, post: null }) }),
+      deferredInstallPrompt && React.createElement(InstallPWAButton, { onInstall: handleInstallClick })
     )
   );
 };
 
-// === RENDER APP ===
-const rootElement = document.getElementById('root');
-if (!rootElement) {
-  throw new Error("Could not find root element to mount to");
-}
-const root = ReactDOM.createRoot(rootElement);
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   React.createElement(React.StrictMode, null,
-    React.createElement(LocalizationProvider, null,
-      React.createElement(AuthProvider, null,
-        React.createElement(App, null)
+    React.createElement(AuthProvider, null,
+      React.createElement(LocalizationProvider, null,
+          React.createElement(NotificationProvider, null,
+            React.createElement(App, null)
+          )
       )
     )
   )
