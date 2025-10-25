@@ -1,0 +1,243 @@
+{
+  "header": {
+    "brand": "Tech Deals",
+    "home": "Home",
+    "deals": "Best Deals",
+    "categories": "Categories",
+    "blog": "Blog",
+    "wishlistAriaLabel": "Wishlist",
+    "products": "products"
+  },
+  "hero": {
+    "title": "The Best Tech Deals in One Place",
+    "subtitle": "We find the best deals and coupons for tech products to help you save.",
+    "searchPlaceholder": "Search for a laptop, smartphone, headphones..."
+  },
+  "categories": {
+    "title": "Browse by Category",
+    "all": "All",
+    "laptops": "Laptops",
+    "smartphones": "Smartphones",
+    "headphones": "Headphones",
+    "monitors": "Monitors",
+    "tablets": "Tablets",
+    "cameras": "Cameras",
+    "accessories": "Accessories"
+  },
+  "pageTitles": {
+      "wishlist": "My Wishlist",
+      "deals": "Best Deals",
+      "featuredProducts": "Featured Products"
+  },
+  "products": {
+      "noResults": "No products match your search.",
+      "noResultsSubtitle": "Try changing your search terms or filters.",
+      "1": {
+          "name": "Dell XPS 15 Laptop",
+          "description": "A powerful laptop with a stunning OLED screen, perfect for designers and developers."
+      },
+      "2": {
+          "name": "Samsung Galaxy S23 Ultra",
+          "description": "Exceptional camera and top-tier performance with the S Pen for an unparalleled experience."
+      },
+      "3": {
+          "name": "Sony WH-1000XM5 Headphones",
+          "description": "Best-in-class noise-canceling technology with unmatched sound quality."
+      },
+      "4": {
+          "name": "LG UltraGear 27\" Gaming Monitor",
+          "description": "A 4K monitor with a 144Hz refresh rate for a smooth and enjoyable gaming experience."
+      },
+      "5": {
+          "name": "Apple iPad Air",
+          "description": "Sleek design and powerful performance with the M1 chip."
+      },
+      "6": {
+          "name": "Canon EOS R6 Camera",
+          "description": "A professional camera for high-quality video and photography."
+      },
+      "7": {
+          "name": "Logitech MX Master 3S Mouse",
+          "description": "The best productivity mouse with an ergonomic design and advanced features."
+      },
+      "8": {
+          "name": "Google Pixel 8 Pro",
+          "description": "A pure Android experience with a smart camera and exclusive features."
+      },
+      "9": {
+          "name": "Razer Viper Mini Gaming Mouse",
+          "description": "Lightweight and responsive, perfect for competitive gaming."
+      }
+  },
+  "productCard": {
+      "reviews": "reviews",
+      "comparePrices": "Compare Prices",
+      "viewDeal": "View Deal from {{store}}",
+      "addToWishlist": "Add to wishlist",
+      "removeFromWishlist": "Remove from wishlist"
+  },
+  "coupons": {
+    "title": "Exclusive Coupons",
+    "expiresOn": "Expires on: {{date}}",
+    "copyCode": "Copy Code",
+    "copied": "Copied!",
+    "1": {"description": "15% off on electronics"},
+    "2": {"description": "10% off on laptops"},
+    "3": {"description": "20% off on mobile accessories"}
+  },
+  "aiGuide": {
+    "title": "Your AI Buying Guide",
+    "subtitle": "Not sure what to buy? Ask our AI to generate a custom buying guide for you.",
+    "placeholder": "e.g., Best video editing laptop under $1500",
+    "buttonText": "Generate Guide",
+    "loading": "Generating...",
+    "guideTitle": "Your Custom Guide: {{topic}}",
+    "error": {
+        "topicRequired": "Please enter a topic to generate the guide.",
+        "generationFailed": "An error occurred while generating the guide. Please try again."
+    }
+  },
+  "blog": {
+    "title": "From the Blog",
+    "readMore": "Read More",
+    "publishedOn": "Published on {{date}} by {{author}}",
+    "1": { "title": "How to Choose the Perfect Laptop for Your Needs?" },
+    "2": { "title": "Top 5 Must-Have Accessories for Your Smartphone" }
+  },
+  "modal": {
+      "close": "Close",
+      "bestPrice": "Best Price",
+      "goToStore": "Go to Store"
+  },
+  "pwa": {
+    "installButton": "Install App"
+  },
+  "footer": {
+    "brand": "Tech Deals",
+    "copyright": "All rights reserved © {{year}}",
+    "about": "About Us",
+    "privacy": "Privacy Policy"
+  },
+  "stores": {
+    "amazon": "Amazon",
+    "jarir": "Jarir",
+    "noon": "Noon",
+    "extra": "Extra",
+    "shein": "SHEIN"
+  },
+  "login": {
+    "title": "Admin Panel Login",
+    "username": "Username",
+    "password": "Password",
+    "loginButton": "Login",
+    "error": "Invalid username or password."
+  },
+  "admin": {
+    "panelTitle": "Admin Panel",
+    "logout": "Logout",
+    "manageUsers": "Manage Users",
+    "addNewUser": "Add New User",
+    "username": "Username",
+    "role": "Role",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleteConfirm": "Are you sure you want to delete this user?",
+    "manageProducts": "Manage Products",
+    "addNewProduct": "Add New Product",
+    "productName": "Product Name",
+    "category": "Category",
+    "price": "Price (SAR)",
+    "manageCoupons": "Manage Coupons",
+    "addNewCoupon": "Add New Coupon",
+    "store": "Store",
+    "code": "Code",
+    "description": "Description",
+    "manageBlog": "Manage Blog",
+    "addNewPost": "Add New Post",
+    "postTitle": "Post Title",
+    "author": "Author",
+    "date": "Date",
+    "blogForm": {
+      "addPostTitle": "Add New Post",
+      "editPostTitle": "Edit Post",
+      "title": "Title",
+      "author": "Author",
+      "publishDate": "Publish Date",
+      "imageUrl": "Image URL",
+      "content": "Content",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "userForm": {
+      "addUserTitle": "Add New User",
+      "editUserTitle": "Edit User",
+      "password": "Password",
+      "passwordHint": "Leave blank to keep unchanged",
+      "role": "Role",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "productForm": {
+      "addProductTitle": "Add New Product",
+      "editProductTitle": "Edit Product",
+      "name": "Name",
+      "category": "Category",
+      "price": "Price (SAR)",
+      "originalPrice": "Original Price (Optional)",
+      "store": "Store",
+      "affiliateLink": "Affiliate Link",
+      "imageUrl": "Image URL",
+      "description": "Description",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "couponForm": {
+      "addCouponTitle": "Add New Coupon",
+      "editCouponTitle": "Edit Coupon",
+      "store": "Store",
+      "code": "Code",
+      "description": "Description",
+      "expiryDate": "Expiry Date",
+      "storeLogoUrl": "Store Logo URL",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "roles": {
+      "ADMIN": "Admin",
+      "EDITOR": "Editor"
+    },
+    "manageSite": "Site Settings",
+    "manageSiteDesc": "Manage general site content like About Us and Privacy Policy.",
+    "aboutUs": "About Us",
+    "privacyPolicy": "Privacy Policy",
+    "copyrightYear": "Copyright Year",
+    "saveSettings": "Save Settings",
+    "settingsSaved": "Settings saved successfully!",
+    "siteVisibility": "Visibility Settings",
+    "siteVisibilityDesc": "Control which sections are visible on the homepage.",
+    "showBlogSection": "Show Blog Section",
+    "showCouponsSection": "Show Coupons Section",
+    "monetization": "Monetization",
+    "monetizationDesc": "Manage advertising and commission settings.",
+    "adsenseId": "Google AdSense Publisher ID",
+    "pixelId": "Facebook Pixel ID",
+    "commissionRate": "Default Affiliate Commission Rate (%)",
+    "showAds": "Show Advertisements on Site",
+    "earningsDashboard": "Earnings Dashboard",
+    "earningsDesc": "An overview of potential affiliate commission earnings.",
+    "productCount": "Total Products: {{count}}",
+    "addProductByUrl": "Add via Link",
+    "productUrlModal": {
+      "title": "Generate Product from URL",
+      "placeholder": "https://example.com/product-page",
+      "generate": "Generate Product",
+      "generating": "Generating...",
+      "error": "Could not extract product details. Please check the URL or try another page."
+    },
+    "automationSettings": "Automation Settings",
+    "automationSettingsDesc": "Manage automatic content generation and updates.",
+    "enableAutoAdd": "Enable Automatic Product Addition",
+    "enableAutoAddDesc": "When enabled, the system will automatically add new deals periodically."
+  }
+}
