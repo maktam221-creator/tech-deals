@@ -1152,8 +1152,8 @@ const AdminPanel = ({ products, coupons, siteSettings, onSaveProduct, onDeletePr
                 React.createElement("label", { htmlFor: "enableAutoAdd", className: "flex items-center cursor-pointer" },
                     React.createElement("div", { className: "relative" },
                         React.createElement("input", { type: "checkbox", id: "enableAutoAdd", className: "sr-only", checked: siteSettings.enableAutoAdd || false, onChange: handleAutomationToggle }),
-                        React.createElement("div", { className: "block bg-accent w-14 h-8 rounded-full" }),
-                        React.createElement("div", { className: `dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition ${siteSettings.enableAutoAdd ? 'translate-x-6 bg-brand' : ''}` })
+                        React.createElement("div", { className: `block w-14 h-8 rounded-full transition-colors ${siteSettings.enableAutoAdd ? 'bg-brand' : 'bg-accent'}` }),
+                        React.createElement("div", { className: `dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition-transform ${siteSettings.enableAutoAdd ? 'translate-x-6' : ''}` })
                     ),
                     React.createElement("div", { className: "mx-3 text-highlight" },
                         React.createElement("p", { className: "font-bold" }, t('admin.enableAutoAdd')),
@@ -1226,7 +1226,7 @@ const App = () => {
   const [allProducts, setAllProducts] = useState(() => getStoredData('allProducts', initialProducts));
   const [allCoupons, setAllCoupons] = useState(() => getStoredData('allCoupons', initialCoupons));
   const [siteSettings, setSiteSettings] = useState(() => getStoredData('siteSettings', initialSiteSettings));
-  const [view, setView] = useState('home');
+  const [view, setView] = useState(() => getStoredData('currentView', 'home'));
   const [wishlist, setWishlist] = useState(() => getStoredData('wishlist', []));
   const categoriesRef = useRef(null);
   const blogRef = useRef(null);
@@ -1239,6 +1239,7 @@ const App = () => {
   useEffect(() => { localStorage.setItem('allCoupons', JSON.stringify(allCoupons)); }, [allCoupons]);
   useEffect(() => { localStorage.setItem('siteSettings', JSON.stringify(siteSettings)); }, [siteSettings]);
   useEffect(() => { localStorage.setItem('wishlist', JSON.stringify(wishlist)); }, [wishlist]);
+  useEffect(() => { localStorage.setItem('currentView', JSON.stringify(view)); }, [view]);
 
   useEffect(() => {
     if (siteSettings.enableAutoAdd) {
@@ -1251,7 +1252,7 @@ const App = () => {
                     return [...prevProducts, newProduct];
                 });
             }
-        }, 30000);
+        }, 10000);
     } else if (autoAddIntervalRef.current) {
         clearInterval(autoAddIntervalRef.current);
         autoAddIntervalRef.current = null;
@@ -1284,7 +1285,7 @@ const App = () => {
   const handleSaveCoupon = (couponToSave) => {
     setAllCoupons(prev => {
       if (couponToSave.id && prev.some(c => c.id === couponToSave.id)) {
-        return prev.map(c => c.id === couponToSave.id ? couponToSave : c);
+        return prev.map(c => c.id === couponToSave.id ? couponToSave : p);
       }
       return [...prev, { ...couponToSave, id: Date.now() }];
     });
