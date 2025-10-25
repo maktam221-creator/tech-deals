@@ -222,6 +222,11 @@ const App: React.FC = () => {
     }
   };
 
+  // FIX: Create a wrapper for setView to pass to HomePage. This prevents
+  // TypeScript from inferring a narrower type for setView from HomePage's props,
+  // which caused a type error in handleNavigate.
+  const setHomePageView = (v: 'home' | 'deals' | 'wishlist') => setView(v);
+
   const renderContent = () => {
     if (view === 'login') {
       return <LoginPage onLoginSuccess={() => setView('admin')} />;
@@ -247,7 +252,7 @@ const App: React.FC = () => {
       coupons={allCoupons}
       wishlist={wishlist}
       toggleWishlist={toggleWishlist}
-      setView={setView}
+      setView={setHomePageView}
       categoriesRef={categoriesRef}
       blogRef={blogRef}
       siteSettings={siteSettings}
