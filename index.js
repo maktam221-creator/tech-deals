@@ -18,11 +18,12 @@ const arTranslations = {
   "blog": { "title": "من المدونة", "readMore": "اقرأ المزيد", "publishedOn": "نشر في {{date}} بواسطة {{author}}", "1": { "title": "كيف تختار اللابتوب المثالي لاحتياجاتك؟" }, "2": { "title": "أهم 5 ملحقات يجب أن تقتنيها لهاتفك الذكي" } },
   "modal": { "close": "إغلاق", "bestPrice": "الأفضل سعراً", "goToStore": "اذهب للمتجر" },
   "pwa": { "installButton": "تثبيت التطبيق" },
-  "footer": { "brand": "صفقات تك", "copyright": "كل الحقوق محفوظة © {{year}}", "about": "من نحن", "privacy": "سياسة الخصوصية" },
+  "footer": { "brand": "صفقات تك", "copyright": "كل الحقوق محفوظة © {{year}}", "about": "من نحن", "privacy": "سياسة الخصوصية", "contact": "اتصل بنا" },
   "stores": { "amazon": "أمازون", "jarir": "جرير", "noon": "نون", "extra": "إكسترا", "shein": "شي إن" },
   "login": { "title": "تسجيل الدخول للوحة التحكم", "username": "اسم المستخدم", "password": "كلمة المرور", "loginButton": "تسجيل الدخول", "error": "اسم المستخدم أو كلمة المرور غير صحيحة." },
   "admin": { "panelTitle": "لوحة التحكم", "logout": "تسجيل الخروج", "manageUsers": "إدارة المستخدمين", "addNewUser": "إضافة مستخدم جديد", "username": "اسم المستخدم", "role": "الصلاحية", "actions": "الإجراءات", "edit": "تعديل", "delete": "حذف", "deleteConfirm": "هل أنت متأكد من أنك تريد حذف هذا المستخدم؟", "manageProducts": "إدارة المنتجات", "addNewProduct": "إضافة منتج جديد", "productName": "اسم المنتج", "category": "الفئة", "price": "السعر (ر.س)", "manageCoupons": "إدارة الكوبونات", "addNewCoupon": "إضافة كوبون جديد", "store": "المتجر", "code": "الكود", "description": "الوصف", "manageBlog": "إدارة المدونة", "addNewPost": "إضافة تدوينة جديدة", "postTitle": "عنوان التدوينة", "author": "الكاتب", "date": "التاريخ", "blogForm": { "addPostTitle": "إضافة تدوينة جديدة", "editPostTitle": "تعديل التدوينة", "title": "العنوان", "author": "الكاتب", "date": "تاريخ النشر", "imageUrl": "رابط الصورة", "content": "المحتوى", "cancel": "إلغاء", "save": "حفظ" }, "userForm": { "addUserTitle": "إضافة مستخدم جديد", "editUserTitle": "تعديل المستخدم", "password": "كلمة المرور", "passwordHint": "اتركه فارغًا لعدم التغيير", "role": "الصلاحية", "cancel": "إلغاء", "save": "حفظ" }, "productForm": { "addProductTitle": "إضافة منتج جديد", "editProductTitle": "تعديل المنتج", "name": "الاسم", "category": "الفئة", "price": "السعر (ر.س)", "originalPrice": "السعر الأصلي (اختياري)", "store": "المتجر", "affiliateLink": "رابط التسويق", "imageUrl": "رابط الصورة", "description": "الوصف", "cancel": "إلغاء", "save": "حفظ" }, "couponForm": { "addCouponTitle": "إضافة كوبون جديد", "editCouponTitle": "تعديل الكوبون", "store": "المتجر", "code": "الكود", "description": "الوصف", "expiryDate": "تاريخ الانتهاء", "storeLogoUrl": "رابط شعار المتجر", "cancel": "إلغاء", "save": "حفظ" }, "roles": { "ADMIN": "مدير", "EDITOR": "محرر" }, "manageSite": "إعدادات الموقع", "manageSiteDesc": "إدارة المحتوى العام للموقع مثل صفحة 'من نحن' و 'سياسة الخصوصية'.", "aboutUs": "من نحن", "privacyPolicy": "سياسة الخصوصية", "copyrightYear": "سنة حقوق النشر", "saveSettings": "حفظ الإعدادات", "settingsSaved": "تم حفظ الإعدادات بنجاح!", "siteVisibility": "إعدادات الظهور", "siteVisibilityDesc": "التحكم في الأقسام التي تظهر في الصفحة الرئيسية.", "showBlogSection": "إظهار قسم المدونة", "showCouponsSection": "إظهار قسم الكوبونات", "monetization": "تحقيق الدخل", "monetizationDesc": "إدارة إعدادات الإعلانات والعمولة.", "adsenseId": "معرف Google AdSense Publisher", "pixelId": "معرف Facebook Pixel", "commissionRate": "نسبة العمولة الافتراضية (%)", "showAds": "إظهار الإعلانات على الموقع", "earningsDashboard": "لوحة الأرباح", "earningsDesc": "نظرة عامة على الأرباح المحتملة من التسويق بالعمولة.", "totalValue": "إجمالي قيمة المنتجات", "estimatedEarnings": "الأرباح التقديرية للعمولة", "productCount": "إجمالي المنتجات: {{count}}", "addProductByUrl": "إضافة عبر الرابط", "productUrlModal": { "title": "إنشاء منتج من رابط", "placeholder": "https://example.com/product-page", "generate": "إنشاء المنتج", "generating": "جاري الإنشاء...", "error": "تعذر استخراج تفاصيل المنتج. يرجى التحقق من الرابط أو تجربة صفحة أخرى." }, "automationSettings": "إعدادات الأتمتة", "automationSettingsDesc": "إدارة الإنشاء والتحديثات التلقائية للمحتوى.", "enableAutoAdd": "تفعيل إضافة المنتجات التلقائي", "enableAutoAddDesc": "عند التفعيل، سيقوم النظام بإضافة صفقات جديدة بشكل دوري." },
-  "notifications": { "newProductAdded": "تمت إضافة صفقة جديدة" }
+  "notifications": { "newProductAdded": "تمت إضافة صفقة جديدة" },
+  "contactModal": { "title": "اتصل بنا", "subtitle": "هل لديك سؤال أو ملاحظة؟ املأ النموذج أدناه وسنعاود الاتصال بك.", "name": "الاسم الكامل", "email": "البريد الإلكتروني", "message": "رسالتك", "send": "إرسال الرسالة", "sending": "جار الإرسال...", "successTitle": "تم الإرسال بنجاح!", "error": "حدث خطأ أثناء إرسال رسالتك. يرجى المحاولة مرة أخرى." }
 };
 const enTranslations = {
   "header": { "brand": "Tech Deals", "home": "Home", "deals": "Best Deals", "categories": "Categories", "blog": "Blog", "wishlistAriaLabel": "Wishlist", "products": "products" },
@@ -36,11 +37,12 @@ const enTranslations = {
   "blog": { "title": "From the Blog", "readMore": "Read More", "publishedOn": "Published on {{date}} by {{author}}", "1": { "title": "How to Choose the Perfect Laptop for Your Needs?" }, "2": { "title": "Top 5 Must-Have Accessories for Your Smartphone" } },
   "modal": { "close": "Close", "bestPrice": "Best Price", "goToStore": "Go to Store" },
   "pwa": { "installButton": "Install App" },
-  "footer": { "brand": "Tech Deals", "copyright": "All rights reserved © {{year}}", "about": "About Us", "privacy": "Privacy Policy" },
+  "footer": { "brand": "Tech Deals", "copyright": "All rights reserved © {{year}}", "about": "About Us", "privacy": "Privacy Policy", "contact": "Contact Us" },
   "stores": { "amazon": "Amazon", "jarir": "Jarir", "noon": "Noon", "extra": "Extra", "shein": "SHEIN" },
   "login": { "title": "Admin Panel Login", "username": "Username", "password": "Password", "loginButton": "Login", "error": "Invalid username or password." },
   "admin": { "panelTitle": "Admin Panel", "logout": "Logout", "manageUsers": "Manage Users", "addNewUser": "Add New User", "username": "Username", "role": "Role", "actions": "Actions", "edit": "Edit", "delete": "Delete", "deleteConfirm": "Are you sure you want to delete this user?", "manageProducts": "Manage Products", "addNewProduct": "Add New Product", "productName": "Product Name", "category": "Category", "price": "Price (SAR)", "manageCoupons": "Manage Coupons", "addNewCoupon": "Add New Coupon", "store": "Store", "code": "Code", "description": "Description", "manageBlog": "Manage Blog", "addNewPost": "Add New Post", "postTitle": "Post Title", "author": "Author", "date": "Date", "blogForm": { "addPostTitle": "Add New Post", "editPostTitle": "Edit Post", "title": "Title", "author": "Author", "date": "Publish Date", "imageUrl": "Image URL", "content": "Content", "cancel": "Cancel", "save": "Save" }, "userForm": { "addUserTitle": "Add New User", "editUserTitle": "Edit User", "password": "Password", "passwordHint": "Leave blank to keep unchanged", "role": "Role", "cancel": "Cancel", "save": "Save" }, "productForm": { "addProductTitle": "Add New Product", "editProductTitle": "Edit Product", "name": "Name", "category": "Category", "price": "Price (SAR)", "originalPrice": "Original Price (Optional)", "store": "Store", "affiliateLink": "Affiliate Link", "imageUrl": "Image URL", "description": "Description", "cancel": "Cancel", "save": "Save" }, "couponForm": { "addCouponTitle": "Add New Coupon", "editCouponTitle": "Edit Coupon", "store": "Store", "code": "Code", "description": "Description", "expiryDate": "Expiry Date", "storeLogoUrl": "Store Logo URL", "cancel": "Cancel", "save": "Save" }, "roles": { "ADMIN": "Admin", "EDITOR": "Editor" }, "manageSite": "Site Settings", "manageSiteDesc": "Manage general site content like About Us and Privacy Policy.", "aboutUs": "About Us", "privacyPolicy": "Privacy Policy", "copyrightYear": "Copyright Year", "saveSettings": "Save Settings", "settingsSaved": "Settings saved successfully!", "siteVisibility": "Visibility Settings", "siteVisibilityDesc": "Control which sections are visible on the homepage.", "showBlogSection": "Show Blog Section", "showCouponsSection": "Show Coupons Section", "monetization": "Monetization", "monetizationDesc": "Manage advertising and commission settings.", "adsenseId": "Google AdSense Publisher ID", "pixelId": "Facebook Pixel ID", "commissionRate": "Default Affiliate Commission Rate (%)", "showAds": "Show Advertisements on Site", "earningsDashboard": "Earnings Dashboard", "earningsDesc": "An overview of potential affiliate commission earnings.", "productCount": "Total Products: {{count}}", "addProductByUrl": "Add via Link", "productUrlModal": { "title": "Generate Product from URL", "placeholder": "https://example.com/product-page", "generate": "Generate Product", "generating": "Generating...", "error": "Could not extract product details. Please check the URL or try another page." }, "automationSettings": { "title": "Automation Settings", "desc": "Manage automatic content generation and updates.", "enableAutoAdd": "Enable Automatic Product Addition", "enableAutoAddDesc": "When enabled, the system will automatically add new deals periodically." } },
-  "notifications": { "newProductAdded": "New deal added" }
+  "notifications": { "newProductAdded": "New deal added" },
+  "contactModal": { "title": "Contact Us", "subtitle": "Have a question or feedback? Fill out the form below and we'll get back to you.", "name": "Full Name", "email": "Email Address", "message": "Your Message", "send": "Send Message", "sending": "Sending...", "successTitle": "Message Sent Successfully!", "error": "An error occurred while sending your message. Please try again." }
 };
 const translations = { ar: arTranslations, en: enTranslations };
 
@@ -221,6 +223,31 @@ async function generateNewDeal(languageCode, existingProductNames = []) {
         console.error("Error generating new deal with Gemini API:", error);
         throw new Error("Failed to generate new deal.");
     }
+}
+async function generateContactResponse(name, email, languageCode) {
+  const API_KEY = process.env.API_KEY;
+  if (!API_KEY) {
+    console.warn("Gemini API key not found. Using fallback response.");
+    return Promise.resolve(languageCode === 'ar' 
+        ? `شكرًا لك ${name} على تواصلك معنا! لقد استلمنا رسالتك وسنرد عليك على ${email} في أقرب وقت ممكن.`
+        : `Thank you for contacting us, ${name}! We have received your message and will get back to you at ${email} as soon as possible.`
+    );
+  }
+  const ai = new GoogleGenAI({ apiKey: API_KEY });
+  const languageName = languageCode === 'ar' ? 'Arabic' : 'English';
+  try {
+    const prompt = `
+      Generate a short, friendly, and professional confirmation message in ${languageName}.
+      The message is for a user named "${name}" who just submitted a contact form on a tech deals website.
+      Confirm that their message has been received and that the team will respond to their email address: ${email}.
+      The tone should be reassuring and polite. Do not add any greetings like "Hello" or "Hi". Just the main body of the message.
+    `;
+    const response = await ai.models.generateContent({ model: "gemini-2.5-flash", contents: prompt });
+    return response.text;
+  } catch (error) {
+    console.error("Error generating contact response with Gemini API:", error);
+    throw new Error("Failed to generate contact response.");
+  }
 }
 
 
@@ -570,6 +597,95 @@ const ChevronDownIcon = (props) => (React.createElement("svg", { xmlns: "http://
 const DownloadIcon = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", className: "h-6 w-6", fill: "none", viewBox: "0 0 24 24", stroke: "currentColor", strokeWidth: 2, ...props }, React.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", d: "M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" })));
 
 // === UI COMPONENTS ===
+const ContactModal = ({ onClose }) => {
+    const { t, language } = useLocalization();
+    const modalRef = useRef(null);
+    useModalAccessibility(modalRef, true, onClose);
+    const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+    const [isLoading, setIsLoading] = useState(false);
+    const [error, setError] = useState('');
+    const [submissionResponse, setSubmissionResponse] = useState('');
+    
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData(prev => ({ ...prev, [name]: value }));
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setIsLoading(true);
+        setError('');
+        try {
+            const responseText = await generateContactResponse(formData.name, formData.email, language.code);
+            setSubmissionResponse(responseText);
+        } catch (err) {
+            setError(t('contactModal.error'));
+            console.error(err);
+        } finally {
+            setIsLoading(false);
+        }
+    };
+
+    const modalContentProps = { ref: modalRef, className: "bg-secondary rounded-2xl p-6 md:p-8 w-full max-w-lg mx-auto shadow-2xl border border-accent/30 transform animate-scale-in", onClick: (e) => e.stopPropagation() };
+
+    return (
+        React.createElement("div", { className: "fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4 animate-fade-in", onClick: onClose, role: "dialog", "aria-modal": "true", "aria-labelledby": "contact-modal-title" },
+          React.createElement("div", { ...modalContentProps },
+            React.createElement("div", { className: "flex justify-between items-start mb-4" },
+              React.createElement("h2", { id: "contact-modal-title", className: "text-2xl font-bold text-white" }, submissionResponse ? t('contactModal.successTitle') : t('contactModal.title')),
+              React.createElement("button", { type: "button", onClick: onClose, className: "text-light hover:text-white p-1 rounded-full hover:bg-accent transition-colors", "aria-label": t('modal.close') },
+                React.createElement(CloseIcon, { className: "w-6 h-6" }))
+            ),
+            submissionResponse ? (
+                React.createElement("div", { className: "text-center py-4" },
+                    React.createElement("div", { className: "mx-auto bg-green-500/20 text-green-400 h-16 w-16 rounded-full flex items-center justify-center mb-4" },
+                        React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", className: "h-8 w-8", fill: "none", viewBox: "0 0 24 24", stroke: "currentColor", strokeWidth: 2 },
+                          React.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", d: "M5 13l4 4L19 7" })
+                        )
+                    ),
+                    React.createElement("p", { className: "text-highlight leading-relaxed" }, submissionResponse)
+                )
+            ) : (
+                React.createElement(React.Fragment, null,
+                    React.createElement("p", { className: "text-light mb-6" }, t('contactModal.subtitle')),
+                    React.createElement("form", { onSubmit: handleSubmit, className: "space-y-4" },
+                        React.createElement("div", null,
+                            React.createElement("label", { htmlFor: "name", className: "block text-sm font-medium text-light mb-1" }, t('contactModal.name')),
+                            React.createElement("input", { type: "text", name: "name", id: "name", value: formData.name, onChange: handleChange, required: true, className: "w-full bg-accent text-highlight rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-brand" })
+                        ),
+                        React.createElement("div", null,
+                            React.createElement("label", { htmlFor: "email", className: "block text-sm font-medium text-light mb-1" }, t('contactModal.email')),
+                            React.createElement("input", { type: "email", name: "email", id: "email", value: formData.email, onChange: handleChange, required: true, className: "w-full bg-accent text-highlight rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-brand" })
+                        ),
+                        React.createElement("div", null,
+                            React.createElement("label", { htmlFor: "message", className: "block text-sm font-medium text-light mb-1" }, t('contactModal.message')),
+                            React.createElement("textarea", { name: "message", id: "message", value: formData.message, onChange: handleChange, required: true, rows: 4, className: "w-full bg-accent text-highlight rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-brand" })
+                        ),
+                        error && React.createElement("p", { className: "text-red-400 text-sm" }, error),
+                        React.createElement("div", { className: "pt-2" },
+                            React.createElement("button", { type: "submit", disabled: isLoading, className: "w-full bg-brand text-primary font-bold py-3 px-8 rounded-lg hover:bg-sky-400 transition-colors duration-300 disabled:bg-accent disabled:cursor-not-allowed flex items-center justify-center" },
+                                isLoading ? (
+                                    React.createElement(React.Fragment, null,
+                                        React.createElement("svg", { className: "animate-spin -ml-1 mr-3 h-5 w-5", xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24" }, 
+                                            React.createElement("circle", { className: "opacity-25", cx: "12", cy: "12", r: "10", stroke: "currentColor", strokeWidth: "4" }),
+                                            React.createElement("path", { className: "opacity-75", fill: "currentColor", d: "M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" })
+                                        ),
+                                        t('contactModal.sending')
+                                    )
+                                ) : t('contactModal.send')
+                            )
+                        )
+                    )
+                )
+            )
+          ),
+          React.createElement("style", null, `
+              @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } } .animate-fade-in { animation: fade-in 0.3s ease-out forwards; }
+              @keyframes scale-in { from { transform: scale(0.95); opacity: 0; } to { transform: scale(1); opacity: 1; } } .animate-scale-in { animation: scale-in 0.3s ease-out forwards; }
+          `)
+        )
+    );
+};
 const Dropdown = ({ options, value, onChange, renderButton }) => {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
@@ -655,7 +771,8 @@ const Footer = ({ onNavigate, siteSettings }) => {
         React.createElement("p", { className: "mb-4" }, t('footer.copyright', { year: siteSettings.copyrightYear })),
         React.createElement("div", { className: "flex justify-center space-x-6 space-x-reverse" },
           React.createElement("button", { type: "button", onClick: () => onNavigate('about'), className: "hover:text-brand transition-colors cursor-pointer" }, t('footer.about')),
-          React.createElement("button", { type: "button", onClick: () => onNavigate('privacy'), className: "hover:text-brand transition-colors cursor-pointer" }, t('footer.privacy'))
+          React.createElement("button", { type: "button", onClick: () => onNavigate('privacy'), className: "hover:text-brand transition-colors cursor-pointer" }, t('footer.privacy')),
+          React.createElement("button", { type: "button", onClick: () => onNavigate('contact'), className: "hover:text-brand transition-colors cursor-pointer" }, t('footer.contact'))
         ),
         React.createElement("div", { className: "mt-6 border-t border-accent/20 pt-4" },
            React.createElement("button", { type: "button", onClick: () => onNavigate('admin'), className: "text-sm text-accent hover:text-brand transition-colors cursor-pointer" }, "Admin Panel")
@@ -1469,6 +1586,7 @@ const App = () => {
   const [wishlist, setWishlist] = useState(() => getStoredData('wishlist', []));
   const [infoModal, setInfoModal] = useState({ isOpen: false, title: '', content: '' });
   const [blogPostModal, setBlogPostModal] = useState({ isOpen: false, post: null });
+  const [contactModalOpen, setContactModalOpen] = useState(false);
   const [deferredInstallPrompt, setDeferredInstallPrompt] = useState(null);
   const { addNotification } = useNotification();
   const autoAddIntervalRef = useRef(null);
@@ -1563,6 +1681,8 @@ const App = () => {
       setInfoModal({ isOpen: true, title: t('footer.about'), content: siteSettings.aboutUs });
     } else if (view === 'privacy') {
       setInfoModal({ isOpen: true, title: t('footer.privacy'), content: siteSettings.privacyPolicy });
+    } else if (view === 'contact') {
+      setContactModalOpen(true);
     } else {
       setView(view);
       window.scrollTo(0, 0);
@@ -1587,6 +1707,7 @@ const App = () => {
       React.createElement(Footer, { onNavigate: navigate, siteSettings: siteSettings }),
       infoModal.isOpen && React.createElement(InfoModal, { title: infoModal.title, content: infoModal.content, onClose: () => setInfoModal({ isOpen: false, title: '', content: '' }) }),
       blogPostModal.isOpen && React.createElement(BlogPostModal, { post: blogPostModal.post, onClose: () => setBlogPostModal({ isOpen: false, post: null }) }),
+      contactModalOpen && React.createElement(ContactModal, { onClose: () => setContactModalOpen(false) }),
       deferredInstallPrompt && React.createElement(InstallPWAButton, { onInstall: handleInstallClick })
     )
   );
