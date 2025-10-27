@@ -22,7 +22,7 @@ const arTranslations = {
   "stores": { "amazon": "أمازون", "jarir": "جرير", "noon": "نون", "extra": "إكسترا", "shein": "شي إن" },
   "login": { "title": "تسجيل الدخول للوحة التحكم", "username": "اسم المستخدم", "password": "كلمة المرور", "loginButton": "تسجيل الدخول", "error": "اسم المستخدم أو كلمة المرور غير صحيحة." },
   "admin": { "panelTitle": "لوحة التحكم", "logout": "تسجيل الخروج", "manageUsers": "إدارة المستخدمين", "addNewUser": "إضافة مستخدم جديد", "username": "اسم المستخدم", "role": "الصلاحية", "actions": "الإجراءات", "edit": "تعديل", "delete": "حذف", "deleteConfirm": "هل أنت متأكد من أنك تريد حذف هذا المستخدم؟", "manageProducts": "إدارة المنتجات", "addNewProduct": "إضافة منتج جديد", "productName": "اسم المنتج", "category": "الفئة", "price": "السعر (ر.س)", "manageCoupons": "إدارة الكوبونات", "addNewCoupon": "إضافة كوبون جديد", "store": "المتجر", "code": "الكود", "description": "الوصف", "manageBlog": "إدارة المدونة", "addNewPost": "إضافة تدوينة جديدة", "postTitle": "عنوان التدوينة", "author": "الكاتب", "date": "التاريخ", "blogForm": { "addPostTitle": "إضافة تدوينة جديدة", "editPostTitle": "تعديل التدوينة", "title": "العنوان", "author": "الكاتب", "date": "تاريخ النشر", "imageUrl": "رابط الصورة", "content": "المحتوى", "cancel": "إلغاء", "save": "حفظ" }, "userForm": { "addUserTitle": "إضافة مستخدم جديد", "editUserTitle": "تعديل المستخدم", "password": "كلمة المرور", "passwordHint": "اتركه فارغًا لعدم التغيير", "role": "الصلاحية", "cancel": "إلغاء", "save": "حفظ" }, "productForm": { "addProductTitle": "إضافة منتج جديد", "editProductTitle": "تعديل المنتج", "name": "الاسم", "category": "الفئة", "price": "السعر (ر.س)", "originalPrice": "السعر الأصلي (اختياري)", "store": "المتجر", "affiliateLink": "رابط التسويق", "imageUrl": "رابط الصورة", "description": "الوصف", "cancel": "إلغاء", "save": "حفظ" }, "couponForm": { "addCouponTitle": "إضافة كوبون جديد", "editCouponTitle": "تعديل الكوبون", "store": "المتجر", "code": "الكود", "description": "الوصف", "expiryDate": "تاريخ الانتهاء", "storeLogoUrl": "رابط شعار المتجر", "cancel": "إلغاء", "save": "حفظ" }, "roles": { "ADMIN": "مدير", "EDITOR": "محرر" }, "manageSite": "إعدادات الموقع", "manageSiteDesc": "إدارة المحتوى العام للموقع مثل صفحة 'من نحن' و 'سياسة الخصوصية'.", "aboutUs": "من نحن", "privacyPolicy": "سياسة الخصوصية", "copyrightYear": "سنة حقوق النشر", "saveSettings": "حفظ الإعدادات", "settingsSaved": "تم حفظ الإعدادات بنجاح!", "siteVisibility": "إعدادات الظهور", "siteVisibilityDesc": "التحكم في الأقسام التي تظهر في الصفحة الرئيسية.", "showBlogSection": "إظهار قسم المدونة", "showCouponsSection": "إظهار قسم الكوبونات", "monetization": "تحقيق الدخل", "monetizationDesc": "إدارة إعدادات الإعلانات والعمولة.", "adsenseId": "معرف Google AdSense Publisher", "pixelId": "معرف Facebook Pixel", "commissionRate": "نسبة العمولة الافتراضية (%)", "showAds": "إظهار الإعلانات على الموقع", "earningsDashboard": "لوحة الأرباح", "earningsDesc": "نظرة عامة على الأرباح المحتملة من التسويق بالعمولة.", "totalValue": "إجمالي قيمة المنتجات", "estimatedEarnings": "الأرباح التقديرية للعمولة", "productCount": "إجمالي المنتجات: {{count}}", "addProductByUrl": "إضافة عبر الرابط", "productUrlModal": { "title": "إنشاء منتج من رابط", "placeholder": "https://example.com/product-page", "generate": "إنشاء المنتج", "generating": "جاري الإنشاء...", "error": "تعذر استخراج تفاصيل المنتج. يرجى التحقق من الرابط أو تجربة صفحة أخرى." }, "automationSettings": "إعدادات الأتمتة", "automationSettingsDesc": "إدارة الإنشاء والتحديثات التلقائية للمحتوى.", "enableAutoAdd": "تفعيل إضافة المنتجات التلقائي", "enableAutoAddDesc": "عند التفعيل، سيقوم النظام بإضافة صفقات جديدة بشكل دوري." },
-  "notifications": { "newProductAdded": "تمت إضافة منتج جديد: {{productName}}" }
+  "notifications": { "newProductAdded": "تمت إضافة صفقة جديدة" }
 };
 const enTranslations = {
   "header": { "brand": "Tech Deals", "home": "Home", "deals": "Best Deals", "categories": "Categories", "blog": "Blog", "wishlistAriaLabel": "Wishlist", "products": "products" },
@@ -40,7 +40,7 @@ const enTranslations = {
   "stores": { "amazon": "Amazon", "jarir": "Jarir", "noon": "Noon", "extra": "Extra", "shein": "SHEIN" },
   "login": { "title": "Admin Panel Login", "username": "Username", "password": "Password", "loginButton": "Login", "error": "Invalid username or password." },
   "admin": { "panelTitle": "Admin Panel", "logout": "Logout", "manageUsers": "Manage Users", "addNewUser": "Add New User", "username": "Username", "role": "Role", "actions": "Actions", "edit": "Edit", "delete": "Delete", "deleteConfirm": "Are you sure you want to delete this user?", "manageProducts": "Manage Products", "addNewProduct": "Add New Product", "productName": "Product Name", "category": "Category", "price": "Price (SAR)", "manageCoupons": "Manage Coupons", "addNewCoupon": "Add New Coupon", "store": "Store", "code": "Code", "description": "Description", "manageBlog": "Manage Blog", "addNewPost": "Add New Post", "postTitle": "Post Title", "author": "Author", "date": "Date", "blogForm": { "addPostTitle": "Add New Post", "editPostTitle": "Edit Post", "title": "Title", "author": "Author", "date": "Publish Date", "imageUrl": "Image URL", "content": "Content", "cancel": "Cancel", "save": "Save" }, "userForm": { "addUserTitle": "Add New User", "editUserTitle": "Edit User", "password": "Password", "passwordHint": "Leave blank to keep unchanged", "role": "Role", "cancel": "Cancel", "save": "Save" }, "productForm": { "addProductTitle": "Add New Product", "editProductTitle": "Edit Product", "name": "Name", "category": "Category", "price": "Price (SAR)", "originalPrice": "Original Price (Optional)", "store": "Store", "affiliateLink": "Affiliate Link", "imageUrl": "Image URL", "description": "Description", "cancel": "Cancel", "save": "Save" }, "couponForm": { "addCouponTitle": "Add New Coupon", "editCouponTitle": "Edit Coupon", "store": "Store", "code": "Code", "description": "Description", "expiryDate": "Expiry Date", "storeLogoUrl": "Store Logo URL", "cancel": "Cancel", "save": "Save" }, "roles": { "ADMIN": "Admin", "EDITOR": "Editor" }, "manageSite": "Site Settings", "manageSiteDesc": "Manage general site content like About Us and Privacy Policy.", "aboutUs": "About Us", "privacyPolicy": "Privacy Policy", "copyrightYear": "Copyright Year", "saveSettings": "Save Settings", "settingsSaved": "Settings saved successfully!", "siteVisibility": "Visibility Settings", "siteVisibilityDesc": "Control which sections are visible on the homepage.", "showBlogSection": "Show Blog Section", "showCouponsSection": "Show Coupons Section", "monetization": "Monetization", "monetizationDesc": "Manage advertising and commission settings.", "adsenseId": "Google AdSense Publisher ID", "pixelId": "Facebook Pixel ID", "commissionRate": "Default Affiliate Commission Rate (%)", "showAds": "Show Advertisements on Site", "earningsDashboard": "Earnings Dashboard", "earningsDesc": "An overview of potential affiliate commission earnings.", "productCount": "Total Products: {{count}}", "addProductByUrl": "Add via Link", "productUrlModal": { "title": "Generate Product from URL", "placeholder": "https://example.com/product-page", "generate": "Generate Product", "generating": "Generating...", "error": "Could not extract product details. Please check the URL or try another page." }, "automationSettings": { "title": "Automation Settings", "desc": "Manage automatic content generation and updates.", "enableAutoAdd": "Enable Automatic Product Addition", "enableAutoAddDesc": "When enabled, the system will automatically add new deals periodically." } },
-  "notifications": { "newProductAdded": "New product added: {{productName}}" }
+  "notifications": { "newProductAdded": "New deal added" }
 };
 const translations = { ar: arTranslations, en: enTranslations };
 
@@ -471,9 +471,14 @@ const NotificationContext = createContext(undefined);
 const NotificationProvider = ({ children }) => {
     const [notifications, setNotifications] = useState([]);
 
-    const addNotification = useCallback((message, type = 'success') => {
+    const addNotification = useCallback((notificationData) => {
         const id = Date.now();
-        setNotifications(prev => [...prev, { id, message, type }]);
+        setNotifications(prev => [...prev, { 
+            id, 
+            type: 'info', 
+            timestamp: new Date(),
+            ...notificationData 
+        }]);
     }, []);
 
     const removeNotification = useCallback((id) => {
@@ -506,24 +511,36 @@ const Notification = ({ notification, onClose }) => {
         return () => clearTimeout(timer);
     }, [onClose]);
     
-    const bgColor = notification.type === 'success' ? 'bg-green-500' : 'bg-brand';
+    const { language } = useLocalization();
+    const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
+    const timeOptions = { hour: '2-digit', minute: '2-digit', hour12: true };
+    const locale = language.code === 'ar' ? 'ar-SA' : 'en-US';
+    
+    const formattedDateTime = new Intl.DateTimeFormat(locale, { ...dateOptions, ...timeOptions }).format(notification.timestamp);
 
     return (
         React.createElement("div", { 
-            className: `max-w-sm w-full ${bgColor} shadow-lg rounded-lg pointer-events-auto ring-1 ring-black ring-opacity-5 overflow-hidden animate-slide-in-right`
+            className: `max-w-sm w-full bg-secondary shadow-lg rounded-lg pointer-events-auto ring-1 ring-accent/50 overflow-hidden animate-slide-in-right`
         },
             React.createElement("div", { className: "p-4" },
                 React.createElement("div", { className: "flex items-start" },
                     React.createElement("div", { className: "flex-shrink-0" },
-                        React.createElement("svg", { className: "h-6 w-6 text-white", xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", stroke: "currentColor", "aria-hidden": "true" },
-                            React.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "2", d: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" })
+                        notification.imageUrl ? 
+                        React.createElement("img", { className: "h-12 w-12 rounded-lg object-cover", src: notification.imageUrl, alt: notification.productName || 'Notification image' })
+                        :
+                        React.createElement("div", { className: "h-12 w-12 rounded-lg bg-accent flex items-center justify-center" },
+                            React.createElement("svg", { className: "h-6 w-6 text-brand", xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", stroke: "currentColor", "aria-hidden": "true" },
+                                React.createElement("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "2", d: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" })
+                            )
                         )
                     ),
-                    React.createElement("div", { className: "ml-3 w-0 flex-1 pt-0.5" },
-                        React.createElement("p", { className: "text-sm font-medium text-white" }, notification.message)
+                    React.createElement("div", { className: "mx-3 w-0 flex-1" },
+                        notification.productName && React.createElement("p", { className: "text-md font-bold text-white" }, notification.productName),
+                        React.createElement("p", { className: "mt-1 text-sm text-light" }, notification.message),
+                        React.createElement("p", { className: "mt-1 text-xs text-accent" }, formattedDateTime)
                     ),
                     React.createElement("div", { className: "ml-4 flex-shrink-0 flex" },
-                        React.createElement("button", { type: "button", onClick: onClose, className: "bg-transparent rounded-md inline-flex text-white hover:text-white/80 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white" },
+                        React.createElement("button", { type: "button", onClick: onClose, className: "bg-transparent rounded-md inline-flex text-light hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-secondary focus:ring-white" },
                             React.createElement("span", { className: "sr-only" }, "Close"),
                             React.createElement(CloseIcon, { className: "h-5 w-5", "aria-hidden": "true" })
                         )
@@ -1497,7 +1514,11 @@ const App = () => {
                   priceComparison: []
               };
               setProducts(prev => [...prev, newProduct]);
-              addNotification(t('notifications.newProductAdded', { productName: newProduct.name }));
+              addNotification({
+                  message: t('notifications.newProductAdded'),
+                  productName: newProduct.name,
+                  imageUrl: newProduct.imageUrl
+              });
               console.log("Successfully added new deal:", newProduct);
           }
       } catch (error) {
@@ -1520,13 +1541,16 @@ const App = () => {
   }, [siteSettings.enableAutoAdd, handleAutoAddDeal]);
   const toggleWishlist = (productId) => { setWishlist(prev => prev.includes(productId) ? prev.filter(id => id !== productId) : [...prev, productId]); };
   const handleSaveProduct = (product) => {
-    let newProduct;
     setProducts(prev => {
         if (product.id) {
             return prev.map(p => p.id === product.id ? product : p);
         }
-        newProduct = { ...product, id: Date.now() };
-        addNotification(t('notifications.newProductAdded', { productName: newProduct.name }));
+        const newProduct = { ...product, id: Date.now() };
+        addNotification({
+            message: t('notifications.newProductAdded'),
+            productName: newProduct.name,
+            imageUrl: newProduct.imageUrl
+        });
         return [...prev, newProduct];
     });
   };
